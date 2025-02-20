@@ -1,0 +1,8 @@
+= Cloud Certifications
+Dzmitry Marudau <vinmaster>
+1.0, February 20, 2025: Initial version
+:toc:
+:icons: font
+:url-quickref: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
+
+include::azure/azure.adoc[]
