@@ -13,7 +13,7 @@ Reference: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai
 
 https://learn.microsoft.com/en-us/training/courses/ai-900t00[Microsoft Azure AI Fundamentals - Official Course]
 
-Recommended trainings:
+==== Recommended trainings
 
 * https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/[Fundamental AI Concepts]
 
