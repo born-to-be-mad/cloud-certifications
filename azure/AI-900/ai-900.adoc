@@ -1,0 +1,55 @@
+= Microsoft Certified: Azure AI Fundamentals (AI-900)
+Dzmitry Marudau <vinmaster>
+1.0, February 20, 2025: Initial version
+:toc:
+:icons: font
+:url-quickref: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
+
+Reference: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification[Microsoft Certified: Azure AI Fundamentals]
+
+== Materials
+
+=== Microsoft
+
+https://learn.microsoft.com/en-us/training/courses/ai-900t00[Microsoft Azure AI Fundamentals - Official Course]
+
+Recommended trainings:
+
+* https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/[Fundamental AI Concepts]
+
+* https://learn.microsoft.com/en-us/training/modules/fundamentals-machine-learning/[Fundamentals of machine learning]
+
+* https://learn.microsoft.com/en-us/training/modules/fundamentals-azure-ai-services/[Fundamentals of Azure AI services]
+
+* https://learn.microsoft.com/en-us/training/modules/analyze-images-computer-vision/[Fundamentals of Computer Vision]
+
+* https://learn.microsoft.com/en-us/training/modules/detect-analyze-faces/[Fundamentals of Facial Recognition]
+
+* https://learn.microsoft.com/en-us/training/modules/read-text-computer-vision/[Fundamentals of optical character recognition]
+
+* https://learn.microsoft.com/en-us/training/modules/analyze-text-with-text-analytics-service/[Fundamentals of Text Analysis with the Language Service]
+
+* https://learn.microsoft.com/en-us/training/modules/build-faq-chatbot-qna-maker-azure-bot-service/[Fundamentals of question answering with the Language Service]
+
+* https://learn.microsoft.com/en-us/training/modules/create-language-model-with-language-understanding/[Fundamentals of conversational language understanding]
+
+* https://learn.microsoft.com/en-us/training/modules/recognize-synthesize-speech/[Fundamentals of Azure AI Speech]
+
+* https://learn.microsoft.com/en-us/training/modules/translate-text-with-translation-service/[Fundamentals of language translation]
+
+* https://learn.microsoft.com/en-us/training/modules/analyze-receipts-form-recognizer/[Fundamentals of Azure AI Document Intelligence]
+
+* https://learn.microsoft.com/en-us/training/modules/intro-to-azure-search/[Fundamentals of Knowledge Mining and Azure AI Search]
+
+* https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/[Fundamentals of Generative AI]
+
+* https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-ai-studio/[Introduction to Azure AI Foundry]
+
+* https://learn.microsoft.com/en-us/training/modules/responsible-ai-studio/[Responsible generative AI]
+
+* https://learn.microsoft.com/en-us/training/modules/prepare-azure-ai-development/[Plan and prepare to develop AI solutions on Azure]
+
+* https://learn.microsoft.com/en-us/training/modules/ai-agent-fundamentals/[Fundamentals of AI agents on Azure]
+
+
+== Practical questions
