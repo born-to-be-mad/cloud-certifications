@@ -8,4 +8,4 @@ Dzmitry Marudau <vinmaster>
 
 == Microsoft Azure
 
-include::../main/azure/azure.adoc[]
+include::azure/azure.adoc[]
