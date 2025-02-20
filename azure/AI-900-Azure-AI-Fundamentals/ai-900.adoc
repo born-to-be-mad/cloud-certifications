@@ -2,6 +2,7 @@
 Dzmitry Marudau <vinmaster>
 1.0, February 20, 2025: Initial version
 :toc:
+:toclevels: 4
 :icons: font
 :url-quickref: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
 
@@ -11,7 +12,7 @@ Reference: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai
 
 === Microsoft
 
-https://learn.microsoft.com/en-us/training/courses/ai-900t00[Microsoft Azure AI Fundamentals - Official Course]
+==== https://learn.microsoft.com/en-us/training/courses/ai-900t00[Microsoft Azure AI Fundamentals - Official Course]
 
 ==== Recommended trainings
 
@@ -53,3 +54,13 @@ https://learn.microsoft.com/en-us/training/courses/ai-900t00[Microsoft Azure AI 
 
 
 == Practical questions
+
+You want to create a model to predict sales of ice cream based on historic data that includes daily ice cream sales totals and weather measurements. Which Azure service should you use?::
+.. Azure Machine Learning
+.. Azure AI Bot Service
+.. Azure AI Language
+
+.Answer
+[example%collapsible]
+Azure Machine Learning
+

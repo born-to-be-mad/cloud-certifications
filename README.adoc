@@ -2,9 +2,10 @@
 Dzmitry Marudau <vinmaster>
 1.0, February 20, 2025: Initial version
 :toc:
+:toclevels: 4
 :icons: font
 :url-quickref: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
 
 == Microsoft Azure
 
-include::./azure/azure.adoc[]
+include::../azure/azure.adoc[]
