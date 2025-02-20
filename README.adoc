@@ -7,5 +7,4 @@ Dzmitry Marudau <vinmaster>
 :url-quickref: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
 
 == Microsoft Azure
-
-include::azure/azure.adoc[]
+include::{azure}/azure.adoc[]
