@@ -55,7 +55,7 @@ Reference: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai
 
 == Practical questions
 
-You want to create a model to predict sales of ice cream based on historic data that includes daily ice cream sales totals and weather measurements. Which Azure service should you use?::
+icon:question[role=blue] You want to create a model to predict sales of ice cream based on historic data that includes daily ice cream sales totals and weather measurements. Which Azure service should you use?::
 .. Azure Machine Learning
 .. Azure AI Bot Service
 .. Azure AI Language
