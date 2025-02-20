@@ -1,10 +1,3 @@
-= Azure Certifications
-Dzmitry Marudau <vinmaster>
-1.0, February 20, 2025: Initial version
-:toc:
-:icons: font
-:url-quickref: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
-
 == https://github.com/born-to-be-mad/cloud-certifications/tree/main/azure/AZ-305-Azure-Solutions-Architect-Expert/az-305.adoc[Microsoft Certified: Azure Solutions Architect Expert (AZ-305)]
 
-== https://github.com/born-to-be-mad/cloud-certifications/tree/main/azure/AI-900-Azure AI Fundamentals/ai-900.adoc[Microsoft Certified: Azure AI Fundamentals (AI-900)]
+== https://github.com/born-to-be-mad/cloud-certifications/tree/main/azure/AI-900-Azure-AI-Fundamentals/ai-900.adoc[Microsoft Certified: Azure AI Fundamentals (AI-900)]
