@@ -54,6 +54,74 @@ Reference: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai
 
 == Practical questions
 
+=== Microsoft Practice Assessment Questions
+
+.Which type of machine learning algorithm groups observations is based on the similarities of features? +
+Select only one answer.
+
+.. classification
+.. clustering
+.. regression
+.. supervised
++
+.Answer
+[example%collapsible]
+**clustering** +
+`Clustering` algorithms group data points that have similar characteristics. `Regression` algorithms are used to predict numeric values. `Classification` algorithms are used to predict a predefined category to which an input value belongs. `Supervised` learning is a category of learning algorithms that includes regression and classification, but not clustering.
+
+.Which type of machine learning algorithm finds the optimal way to split a dataset into groups without relying on training and validating label predictions? +
+Select only one answer.
+
+.. classification
+.. clustering
+.. regression
+.. supervised
++
+.Answer
+[example%collapsible]
+**clustering** +
+`Clustering` algorithms group data points that have similar characteristics. `Regression` algorithms are used to predict numeric values. `Classification` algorithms are used to predict a predefined category to which an input value belongs. `Supervised` learning is a category of learning algorithms that includes regression and classification, but not clustering.
+
+.A retailer wants to group together online shoppers that have similar attributes to enable its marketing team to create targeted marketing campaigns for new product launches. +
+Which type of machine learning is this?
+Select only one answer.
+
+.. classification
+.. clustering
+.. multiclass classification
+.. regression
++
+.Answer
+[example%collapsible]
+**clustering** +
+Clustering is a machine learning type that analyzes unlabeled data to find similarities present in the data. It then groups (clusters) similar data together. In this example, the company can group online customers based on attributes that include demographic data and shopping behaviors. The company can then recommend new products to those groups of customers who are most likely to be interested in them. Classification and multiclass classification are used to predict categories of data. Regression is a machine learning scenario that is used to predict numeric values.
+
+.Which feature makes regression an example of supervised machine learning?
+
+Select only one answer.
+
+.. use of historical data with known label values to train a model
+.. use of historical data with unknown label values to train a model
+.. use of randomly generated data with known label values to train a model
+.. use of randomly generated data with unknown label values to train a model
++
+.Answer
+[example%collapsible]
+**use of historical data with known label values to train a model** +
+Regression is an example of supervised machine learning due to the use of historical data with known label values to train a model. Regression does not rely on randomly generated data for training.
+
+.In a regression machine learning algorithm, what are the characteristics of features and labels in a validation dataset? +
+Select only one answer.
+
+.. known feature and label values
+.. known feature values and unknown label values
+.. unknown feature and label values
+.. unknown feature values and known label values
++
+.Answer
+[example%collapsible]
+In a regression machine learning algorithm, a validation set contains `known feature and label values`.
+
 .You want to create a model to predict sales of ice cream based on historic data that includes daily ice cream sales totals and weather measurements. Which Azure service should you use?
 .. Azure Machine Learning
 .. Azure AI Bot Service
