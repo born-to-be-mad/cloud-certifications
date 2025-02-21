@@ -3,7 +3,6 @@ Dzmitry Marudau <vinmaster>
 1.0, February 20, 2025: Initial version
 :toc:
 :toclevels: 4
-:icons: font
 :url-quickref: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
 
 Reference: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification[Microsoft Certified: Azure AI Fundamentals]
@@ -55,12 +54,345 @@ Reference: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai
 
 == Practical questions
 
-icon:question[role=blue] You want to create a model to predict sales of ice cream based on historic data that includes daily ice cream sales totals and weather measurements. Which Azure service should you use?::
+.You want to create a model to predict sales of ice cream based on historic data that includes daily ice cream sales totals and weather measurements. Which Azure service should you use?
 .. Azure Machine Learning
 .. Azure AI Bot Service
 .. Azure AI Language
-
++
 .Answer
 [example%collapsible]
 Azure Machine Learning
 
+.You work for a wildlife sanctuary and are considering using AI to identify bird species from images. Which AI service should you use to prototype your idea?
+.. Azure AI Vision
+.. Azure AI Search
+.. Azure OpenAI
++
+.Answer
+[example%collapsible]
+Azure AI Vision
+
+.A predictive app provides audio output for visually impaired users. Which principle of Responsible AI is reflected here?
+.. Transparency
+.. Inclusiveness
+.. Fairness
++
+.Answer
+[example%collapsible]
+Inclusiveness
+
+.You want to create a model to predict the cost of heating an office building based on its size in square feet and the number of employees working there. What kind of machine learning problem is this?
+.. Regression
+.. Classification
+.. Clustering
++
+.Answer
+[example%collapsible]
+Regression
+
+.You need to evaluate a classification model. Which metric can you use?
+.. Mean squared error (MSE)
+.. Precision
+.. Silhouette
++
+.Answer
+[example%collapsible]
+Precision
+
+.In deep learning, what is the purpose of a loss function?
+.. To remove data for which no known label values are provided
+.. To evaluate the aggregate difference between predicted and actual label values
+.. To calculate the cost of training a neural network rather than a statistical model.
++
+.Answer
+[example%collapsible]
+To evaluate the aggregate difference between predicted and actual label values
+
+.What does automated machine learning in Azure Machine Learning enable you to do?
+.. Automatically deploy new versions of a model as they're trained
+.. Automatically provision Azure Machine Learning workspaces for new data scientists in an organisation
+.. Automatically run multiple training jobs using different algorithms and parameters to find the best model
++
+.Answer
+[example%collapsible]
+Automatically run multiple training jobs using different algorithms and parameters to find the best model
+
+.What is an Azure AI services resource?
+.. A bundle of several AI services in one resource
+.. An AI service to recognize faces
+.. A single-service resource for Azure AI Search
++
+.Answer
+[example%collapsible]
+A bundle of several AI services in one resource
+
+.Computer vision is based on the manipulation and analysis of what kinds of values in an image?
+.. Timestamps in photograph metadata
+.. Pixels
+.. Image file names
++
+.Answer
+[example%collapsible]
+Pixels
+
+.You want to use the Azure AI Vision service to identify the location of individual items in an image. Which of the following features should you retrieve?
+.. Objects
+.. Visual Tags
+.. Dense Captions
++
+.Answer
+[example%collapsible]
+Objects
+
+.How does the Face service indicate the location of faces in images?
+.. A pair of coordinates for each face, indicating the center of the face
+.. Two pairs of coordinates for each face, indicating the location of the eyes
+.. A set of coordinates for each face, defining a rectangular bounding box around the face
++
+.Answer
+[example%collapsible]
+A set of coordinates for each face, defining a rectangular bounding box around the face
+
+.What is one aspect that might impair facial detection?
+.. Glasses
+.. Extreme angles
+.. Fast shutter speed
++
+.Answer
+[example%collapsible]
+Extreme angles
+
+.What two actions are required to try out the capabilities of the Face service?
+.. Create an Azure Cognitive Search resource, and open Vision Studio
+.. Create a Face resource, and open Vision Studio
+.. Create a Face resource, and open Azure OpenAI Studio
++
+.Answer
+[example%collapsible]
+Create a Face resource, and open Vision Studio
+
+.You plan to use Azure AI Vision's Read API. What results can the Read API provide?
+.. Results arranged in pages, lines, and words
+.. Only the bounding box coordinates
+.. Results arranged by pages that have photographs first, then pages that exclusively have text
++
+.Answer
+[example%collapsible]
+Results arranged in pages, lines, and words
+
+.You want to use Azure AI Language to determine the key talking points in a text document. Which feature of the service should you use?
+.. Sentiment analysis
+.. Key phrase extraction
+.. Entity detection
++
+.Answer
+[example%collapsible]
+Key phrase extraction
+
+.You use Azure AI Language to perform sentiment analysis on a sentence. The confidence scores .04 positive, .36 neutral, and .60 negative are returned. What do these confidence scores indicate about the sentence sentiment?
+.. The document is positive.
+.. The document is neutral.
+.. The document is negative.
++
+.Answer
+[example%collapsible]
+The document is negative.
+
+.When might you see NaN returned for a score in language detection?
+.. When the score calculated by the service is outside the range of 0 to 1
+.. When the predominant language in the text is mixed with other languages
+.. When the language is ambiguous
++
+.Answer
+[example%collapsible]
+When the language is ambiguous
+
+.Your organization has an existing frequently asked questions (FAQ) document. You need to create a knowledge base that includes the questions and answers from the FAQ with the least possible effort. What should you do?
+.. Create an empty knowledge base, and then manually copy and paste the FAQ entries into it.
+.. Import the existing FAQ document into a new knowledge base.
+.. Import a pre-defined chit-chat data source.
++
+.Answer
+[example%collapsible]
+Import the existing FAQ document into a new knowledge base.
+
+.You want to create a knowledge base for your organization’s bot service. Which Azure AI service is best suited to creating a knowledge base?
+.. Conversational Language Understanding
+.. Question Answering
+.. Optical Character Recognition
++
+.Answer
+[example%collapsible]
+Question Answering
+
+.ou need to provision an Azure resource that will be used to author a new conversational language understanding application. What kind of resource should you create?
+.. Azure AI Speech
+.. Azure AI Language
+.. Azure AI services
++
+.Answer
+[example%collapsible]
+Azure AI Language
+
+.You are authoring a conversational language understanding application to support an international clock. You want users to be able to ask for the current time in a specified city, for example "What is the time in London?". What should you do?
+.. Define a "city" entity and a "GetTime" intent with utterances that indicate the city entity.
+.. Create an intent for each city, each with an utterance that asks for the time in that city.
+.. Add the utterance "What time is it in city" to the "None" intent.
++
+.Answer
+[example%collapsible]
+Define a "city" entity and a "GetTime" intent with utterances that indicate the city entity.
+
+.You have published your conversational language understanding application. What information does a client application developer need to get predictions from it?
+.. The endpoint and key for the application's prediction resource
+.. The endpoint and key for the application's authoring resource
+.. The Azure credentials of the user who published the language understanding application
++
+.Answer
+[example%collapsible]
+The endpoint and key for the application's prediction resource
+
+.You want to use Azure AI Speech service to build an application that reads incoming email message subjects aloud. Which API should you use?
+.. Speech to text
+.. Text to speech
+.. Translator
++
+.Answer
+[example%collapsible]
+Text to speech
+
+.You plan to use Azure AI Document Intelligence's prebuilt receipt model. Which kind of Azure resource should you create?
+.. Azure AI Vision resource
+.. Azure AI Document Intelligence or Azure AI services resource.
+.. Azure AI Language resource.
++
+.Answer
+[example%collapsible]
+Azure AI Document Intelligence or Azure AI services resource.
+
+.You are using the Azure AI Document Intelligence service to analyze receipts. Which field types does the service recognise?
+.. Merchant retail type.
+.. Merchant name and address.
+.. Merchant name and date of incorporation.
++
+.Answer
+[example%collapsible]
+Merchant name and address
+
+.What is required to use the receipt analyzer service in Azure AI Document Intelligence?
+.. Train the model on sample receipts from your organisation.
+.. Create an Azure AI Document Intelligence resource.
+.. Nothing - receipt analyzer is available once you create an Azure subscription.
++
+.Answer
+[example%collapsible]
+Create an Azure AI Document Intelligence resource.
+
+.Which data format is accepted by Azure AI Search when you're pushing data to the index?
+.. CSV
+.. SQL
+.. JSON
++
+.Answer
+[example%collapsible]
+JSON
+
+.Which explanation best describes an indexer and an index?
+.. An indexer converts documents into JSON and forwards them to a search engine for indexing.
+.. An indexer can be used instead of an index if the files are already in the proper format.
+.. An indexer is only used for AI enrichment and skillset execution.
++
+.Answer
+[example%collapsible]
+An indexer converts documents into JSON and forwards them to a search engine for indexing.
+
+.If you set up a search index without including a skillset, which would you still be able to query?
+.. Sentiment
+.. Text content
+.. Image captions
++
+.Answer
+[example%collapsible]
+Text content
+
+.What is an example of a potential task a generative AI application can help solve?
+.. Monitoring the temperature in a manufacturing facility.
+.. Creating a draft for an email.
+.. Collecting real time data and storing it in a database.
++
+.Answer
+[example%collapsible]
+Creating a draft for an email.
+
+.What is the purpose of vector-based embeddings?
+.. To represent semantic meaning of text tokens.
+.. To create tokens that include multiple representations of a word in different languages.
+.. To correct misspellings in the training data.
++
+.Answer
+[example%collapsible]
+To represent semantic meaning of text tokens.
+
+.What is the potential impact of copilots?
+.. Copilots only impact applications used in professional settings.
+.. Copilots can help with first drafts, information synthesis, strategic planning, and much more.
+.. Copilots can only be used for certain natural language tasks like summarizing text.
++
+.Answer
+[example%collapsible]
+Copilots can help with first drafts, information synthesis, strategic planning, and much more.
+
+.Which assumption of the multiple linear regression model should be satisfied to avoid misleading predictions?
+.. Features are dependent on each other.
+.. Features are independent of each other.
+.. Labels are dependent on each other.
+.. Labels are independent of each other.
++
+.Answer
+[example%collapsible]
+Features are independent of each other.
+
+.How are ChatGPT, OpenAI, and Azure OpenAI related?
+.. Azure OpenAI is Microsoft's version of ChatGPT, a chatbot that uses generative AI models.
+.. ChatGPT and OpenAI are chatbots that generate natural language, code, and images. Azure OpenAI provides access to these two chatbots.
+.. OpenAI is a research company that developed ChatGPT, a chatbot that uses generative AI models. Azure OpenAI provides access to many of OpenAI's AI models
++
+.Answer
+[example%collapsible]
+OpenAI is a research company that developed ChatGPT, a chatbot that uses generative AI models. Azure OpenAI provides access to many of OpenAI's AI models
+
+.What is one action Microsoft takes to support ethical AI practices in Azure OpenAI?
+.. Provides Transparency Notes that share how technology is built and asks users to consider its implications.
+.. Logs users out of Azure OpenAI Studio after a period of inactivity to ensure it's only used by one user.
+.. Allows users to build any application, regardless of harmful effects, to ensure fairness.
++
+.Answer
+[example%collapsible]
+Provides Transparency Notes that share how technology is built and asks users to consider its implications.
+
+.Why should you consider creating an AI Impact Assessment when designing a generative AI solution?
+.. To make a legal case that indemnifies you from responsibility for harms caused by the solution
+.. To document the purpose, expected use, and potential harms for the solution
+.. To evaluate the cost of cloud services required to implement your solution
++
+.Answer
+[example%collapsible]
+To document the purpose, expected use, and potential harms for the solution
+
+.What capability of Azure OpenAI Service helps mitigate harmful content generation at the Safety System level?
+.. DALL-E model support
+.. Fine-tuning
+.. Content filters
++
+.Answer
+[example%collapsible]
+Content filters
+
+.Why should you consider a phased delivery plan for your generative AI solution?
+.. To enable you to gather feedback and identify issues before releasing the solution more broadly
+.. To eliminate the need to identify, measure, and mitigate potential harms
+.. To enable you to charge more for the solution
++
+.Answer
+[example%collapsible]
+To enable you to gather feedback and identify issues before releasing the solution more broadly
