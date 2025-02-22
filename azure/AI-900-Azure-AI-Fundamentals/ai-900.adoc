@@ -69,12 +69,11 @@ Azure AI Agent Service:: A managed service in Azure that is designed to provide 
 AI agents:: Smart software services that combine generative AI models with contextual data and the ability to automate tasks based on user input and environmental factors that they perceive.
 
 
-
 == Practical questions
 
 === Microsoft Practice Assessment Questions
 
-.Which type of machine learning algorithm groups observations is based on the similarities of features? +
+.*Which type of machine learning algorithm groups observations is based on the similarities of features?* +
 Select only one answer.
 
 .. classification
@@ -87,7 +86,8 @@ Select only one answer.
 **clustering** +
 `Clustering` algorithms group data points that have similar characteristics. `Regression` algorithms are used to predict numeric values. `Classification` algorithms are used to predict a predefined category to which an input value belongs. `Supervised` learning is a category of learning algorithms that includes regression and classification, but not clustering.
 
-.Which type of machine learning algorithm finds the optimal way to split a dataset into groups without relying on training and validating label predictions? +
+'''
+.*Which type of machine learning algorithm finds the optimal way to split a dataset into groups without relying on training and validating label predictions?* +
 Select only one answer.
 
 .. classification
@@ -100,7 +100,8 @@ Select only one answer.
 **clustering** +
 `Clustering` algorithms group data points that have similar characteristics. `Regression` algorithms are used to predict numeric values. `Classification` algorithms are used to predict a predefined category to which an input value belongs. `Supervised` learning is a category of learning algorithms that includes regression and classification, but not clustering.
 
-.A retailer wants to group together online shoppers that have similar attributes to enable its marketing team to create targeted marketing campaigns for new product launches. +
+'''
+.*A retailer wants to group together online shoppers that have similar attributes to enable its marketing team to create targeted marketing campaigns for new product launches.* +
 Which type of machine learning is this?
 Select only one answer.
 
@@ -115,7 +116,9 @@ Select only one answer.
 Clustering is a machine learning type that analyzes unlabeled data to find similarities present in the data. It then groups (clusters) similar data together. In this example, the company can group online customers based on attributes that include demographic data and shopping behaviors. The company can then recommend new products to those groups of customers who are most likely to be interested in them. +
 Classification and multiclass classification are used to predict categories of data. Regression is a machine learning scenario that is used to predict numeric values.
 
-.Predicting rainfall for a specific geographical location is an example of which type of machine learning?
+
+'''
+.*Predicting rainfall for a specific geographical location is an example of which type of machine learning?*
 
 .. classification
 .. clustering
@@ -257,6 +260,8 @@ Select all answers that apply.
 **Clean Missing Data, Normalize Data, Select Columns in Dataset**
 Normalize Data is a data transformation module that is used to change the values of numeric columns in a dataset to a common scale, without distorting differences in the range of values. The Clean Missing Data module is part of preparing the data and data transformation process. Select Columns in Dataset is a data transformation component that is used to choose a subset of columns of interest from a dataset. The train clustering model is not a part of data transformation. The evaluate model is a component used to measure the accuracy of training models.
 
+'''
+
 .Which part of speech synthesis in natural language processing (NLP) involves breaking text into individual words such that each word can be assigned phonetic sounds? +
 Select only one answer.
 
@@ -272,6 +277,7 @@ Transcribing is part of speech recognition, which involves converting speech int
 Key phrase extraction is part of language processing, not speech synthesis. +
 Lemmatization, also known as stemming, is part of language processing, not speech synthesis.
 
+'''
 .*Which natural language processing (NLP) technique normalizes words before counting them?* +
 Select only one answer.
 
