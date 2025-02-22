@@ -3,6 +3,7 @@ Dzmitry Marudau <vinmaster>
 1.0, February 20, 2025: Initial version
 :toc:
 :toclevels: 4
+:icons: font
 :url-quickref: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
 
 Reference: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification[Microsoft Certified: Azure AI Fundamentals]
@@ -63,7 +64,7 @@ Select only one answer.
 .. clustering
 .. regression
 .. supervised
-+
+
 .Answer
 [example%collapsible]
 **clustering** +
@@ -76,7 +77,7 @@ Select only one answer.
 .. clustering
 .. regression
 .. supervised
-+
+
 .Answer
 [example%collapsible]
 **clustering** +
@@ -90,7 +91,7 @@ Select only one answer.
 .. clustering
 .. multiclass classification
 .. regression
-+
+
 .Answer
 [example%collapsible]
 **clustering** +
@@ -103,7 +104,7 @@ Classification and multiclass classification are used to predict categories of d
 .. clustering
 .. featurization
 .. regression
-+
+
 .Answer
 [example%collapsible]
 Predicting rainfall is an example of regression machine learning, as it will predict a numeric value for future rainfall by using historical time-series rainfall data based on factors, such as seasons. Clustering is a machine learning type that analyzes unlabeled data to find similarities in the data. Featurization is not a machine learning type, but a collection of techniques, such as feature engineering, data-scaling, and normalization. Classification is used to predict categories of data.
@@ -116,7 +117,7 @@ Select only one answer.
 .. use of historical data with unknown label values to train a model
 .. use of randomly generated data with known label values to train a model
 .. use of randomly generated data with unknown label values to train a model
-+
+
 .Answer
 [example%collapsible]
 **use of historical data with known label values to train a model** +
@@ -129,7 +130,7 @@ Select only one answer.
 .. known feature values and unknown label values
 .. unknown feature and label values
 .. unknown feature values and known label values
-+
+
 .Answer
 [example%collapsible]
 In a regression machine learning algorithm, a validation set contains `known feature and label values`.
@@ -142,7 +143,7 @@ Select all answers that apply.
 .. e-scooter hires
 .. weather temperature
 .. weekday or weekend
-+
+
 .Answer
 [example%collapsible]
 Weather temperature and weekday or weekend are features that provide a weather temperature for a given day and a value based on whether the day is on a weekend or weekday. These are input variables for the model to help predict the labels for e-scooter battery levels, number of hires, and distance traveled. +
@@ -155,7 +156,7 @@ Select only one answer.
 .. normalize the data
 .. split data into training and validation datasets
 .. summarize the data
-+
+
 .Answer
 [example%collapsible]
 `Splitting data into training and validation datasets` leaves you with two datasets, the first and largest of which is the training dataset you use to train the model. The second, smaller dataset is the held back data and is called the validation dataset, as it is used to evaluate the trained model. If normalizing or summarizing the data is required, it will be carried out as part of data transformation. Cleaning missing data is part of preparing the data and the data transformation processes.
@@ -167,7 +168,7 @@ Select only one answer.
 .. a workspace
 .. an Azure container instance
 .. an Azure Kubernetes Service (AKS) cluster
-+
+
 .Answer
 [example%collapsible]
 A `dataset` is required to create an automated machine learning (automated ML) run. A workspace must be created before you can access Machine Learning studio. An Azure container instance and an AKS cluster can be created as a deployment target, after training of a model is complete.
@@ -179,7 +180,7 @@ Select only one answer.
 .. a workspace
 .. an Azure container instance
 .. an Azure Kubernetes Service (AKS) cluster
-+
+
 .Answer
 [example%collapsible]
 A `job` must be created in Machine Learning studio to use Machine Learning to train a regression model. +
@@ -193,7 +194,7 @@ Select only one answer.
 .. Add training modules.
 .. Create a pipeline.
 .. Deploy a service.
-+
+
 .Answer
 [example%collapsible]
 **Create a pipeline.** +
@@ -207,7 +208,7 @@ Select all answers that apply.
 .. inference pipeline
 .. regression
 .. time-series forecasting
-+
+
 .Answer
 [example%collapsible]
 `Time-series forecasting, regression, and classification` are supervised machine learning models. Automated ML learning can predict categories or classes by using a classification algorithm, as well as numeric values as part of the regression algorithm, and at a future point in time by using time-series data. Inference pipeline is not a machine learning model. Clustering is unsupervised machine learning and automated ML only works with supervised learning algorithms.
@@ -220,7 +221,7 @@ Select all answers that apply.
 .. Normalize Data
 .. Select Columns in Dataset
 .. Train Clustering
-+
+
 .Answer
 [example%collapsible]
 **Clean Missing Data, Normalize Data, Select Columns in Dataset**
@@ -233,7 +234,7 @@ Select only one answer.
 .. key phrase extraction
 .. tokenization
 .. transcribing
-+
+
 .Answer
 [example%collapsible]
 `Tokenization` is part of speech synthesis that involves breaking text into individual words such that each word can be assigned phonetic sounds. Transcribing is part of speech recognition, which involves converting speech into a text representation. Key phrase extraction is part of language processing, not speech synthesis. Lemmatization, also known as stemming, is part of language processing, not speech synthesis.
@@ -245,7 +246,7 @@ Select only one answer.
 .. language detection
 .. named entity recognition
 .. sentiment analysis
-+
+
 .Answer
 [example%collapsible]
 `Sentiment analysis` provides sentiment labels, such as negative, neutral, and positive, based on a confidence score from text analysis. This makes it suitable for understanding user sentiment for product reviews. The named entity recognition, key phrase extraction, and language detection features cannot perform sentiment analysis for product reviews.
@@ -257,7 +258,7 @@ Select only one answer.
 .. key phrase extraction
 .. named entity recognition
 .. Personally Identifiable Information (PII) detection
-+
+
 .Answer
 [example%collapsible]
 `Named entity recognition` can identify and categorize entities in unstructured text, such as people, places, organizations, and quantities, and is suitable to support the development of an article recommendation system. +
@@ -271,7 +272,7 @@ Select all answers that apply.
 .. key phrase extraction
 .. named entity recognition
 .. Azure AI Speech service
-+
+
 .Answer
 [example%collapsible]
 `Key phrase extraction` is used to extract key phrases to identify the main concepts in a text. It enables a company to identify the main talking points from the support question data and allows them to identify common issues. +
@@ -284,7 +285,7 @@ Select only one answer.
 .. key phrase extraction
 .. named entity recognition
 .. Personally Identifiable Information (PII) detection
-+
+
 .Answer
 [example%collapsible]
 `Named entity recognition` can identify and categorize entities in unstructured text, such as people, places, organizations, and quantities, and is suitable to support the development of an article recommendation system. Key phrase extraction, Content Moderator, and the PII feature are not suited to entity recognition tasks to build a recommender system.
@@ -296,7 +297,7 @@ Select only one answer.
 .. key phrase extraction
 .. language detection
 .. sentiment analysis
-+
+
 .Answer
 [example%collapsible]
 `Entity recognition` includes the entity linking functionality that returns links to external websites to disambiguate terms (entities) identified in a text. Key phrase extraction evaluates the text of a document and identifies its main talking points. Azure AI Language detection identifies the language in which text is written. Sentiment analysis evaluates text and returns sentiment scores and labels for each sentence.
@@ -308,7 +309,7 @@ Select only one answer.
 .. key phrase extraction
 .. named entity recognition
 .. text translation
-+
+
 .Answer
 [example%collapsible]
 `Entity Linking` identifies and disambiguates the identity of entities found in a text. +
@@ -324,7 +325,7 @@ Select all answers that apply.
 .. landmarks
 .. people_
 .. people_group
-+
+
 .Answer
 [example%collapsible]
 When categorizing an image, the Azure AI Vision service supports two specialized domain models: `celebrities` and `landmarks`. Image types is an additional capability of the computer vision service, allowing it to detect the type of image, such as a clip art image or a line drawing. Both people_ and people_group are supported categories when performing image classification.
@@ -336,7 +337,7 @@ image analysis
 image classification
 object detection
 semantic segmentation
-+
+
 .Answer
 [example%collapsible]
 `Object detection` provides the ability to generate bounding boxes that identify the locations of different types of objects in an image, including the bounding box coordinates, designating the location of the object in the image. Semantic segmentation provides the ability to classify individual pixels in an image. Image classification classifies images based on their contents. Image analysis extracts information from the image to label it with tags or captions.
@@ -349,7 +350,7 @@ Select all answers that apply.
 .. evaluating a model
 .. inferencing
 .. training a model
-+
+
 .Answer
 [example%collapsible]
 The computer vision service eliminates the need for `choosing, training, and evaluating` a model by providing pre-trained models. To use computer vision, you must create an Azure resource. The use of computer vision involves inferencing.
@@ -362,7 +363,7 @@ Select all answers that apply.
 .. invoice model
 .. layout model
 .. read model
-+
+
 .Answer
 [example%collapsible]
 The `business card model` analyzes and extracts key information from business card images and includes common data field extractions, such as name and email. +
@@ -375,7 +376,7 @@ Select only one answer.
 .. face ID
 .. face landmarks
 .. face rectangle
-+
+
 .Answer
 [example%collapsible]
 `Face attributes` are a set of features that can be detected by the Face Detect API. Attributes such as accessories (glasses, mask, headwear etc.) can be detected. +
@@ -389,7 +390,7 @@ Select all answers that apply.
 .. face identification
 .. face verification
 .. find similar faces
-+
+
 .Answer
 [example%collapsible]
 `Face identification` in the Azure AI Face service can address one-to-many matching of one face in an image to a set of faces in a secure repository. +
@@ -403,7 +404,7 @@ Select only one answer.
 .. Azure AI Custom Vision
 .. Azure AI Face
 .. Azure AI Language
-+
+
 .Answer
 [example%collapsible]
 `Azure AI Custom Vision` is an image recognition service that allows you to build and deploy your own image models. The Azure AI vision service, Azure AI Face service, and Azure AI Language service do not provide the capability to train your own image model.
@@ -418,7 +419,7 @@ Select only one answer.
 .. Generative AI
 .. Machine learning
 .. Reinforcement learning
-+
+
 .Answer
 [example%collapsible]
 `Generative AI models` offer the capability of generating images based on a prompt by using DALL-E models, such as generating images from natural language. The other AI capabilities are used in different contexts to achieve other goals.
@@ -432,7 +433,7 @@ Select only one answer.
 .. Embeddings
 .. System messages
 .. Tokenization
-+
+
 .Answer
 [example%collapsible]
 `System messages` should be used to set the context for the model by describing expectations. Based on system messages, the model knows how to respond to prompts. The other techniques are also used in generative AI models, but for other use cases.
@@ -445,7 +446,7 @@ Select all answers that apply.
 .. Generate closed captions in real-time from a video.
 .. Synthesize speech.
 .. Understand natural language.
-+
+
 .Answer
 [example%collapsible]
 Azure OpenAI natural language models can take in natural language and generate responses. GPT models are excellent at both `understanding and creating natural language`.
@@ -457,7 +458,7 @@ Select only one answer.
 .. Embeddings
 .. Machine learning
 .. System messages
-+
+
 .Answer
 [example%collapsible]
 `Embeddings` is an Azure OpenAI model that converts text into numerical vectors for analysis. Embeddings can be used to search, classify, and compare sources of text for similarity.
@@ -469,7 +470,7 @@ Select only one answer.
 .. knowledge mining
 .. object detection
 .. semantic segmentation
-+
+
 .Answer
 [example%collapsible]
 `Knowledge mining` is an artificial intelligence (AI) workload that has the purpose of making large amounts of data searchable. While other workloads leverage indexing for faster access to large amounts of data, this is not their primary purpose.
@@ -481,7 +482,7 @@ Select only one answer.
 .. image classification
 .. object detection
 .. semantic segmentation
-+
+
 .Answer
 [example%collapsible]
 `Semantic segmentation` provides the ability to classify individual pixels in an image depending on the object that they represent. The other answer choices also process images, but their outcomes are different.
@@ -494,7 +495,7 @@ Select all answers that apply.
 .. optical character recognition (OCR)
 .. sentiment analysis
 .. spatial analysis
-+
+
 .Answer
 [example%collapsible]
 `OCR and Spatial Analysis` are part of the Azure AI Vision service. +
@@ -507,7 +508,7 @@ Select only one answer.
 .. conversational language understanding (CLU)
 .. question answering models
 .. text analysis
-+
+
 .Answer
 [example%collapsible]
 `Azure AI Speech` provides speech-to-text and text-to-speech capabilities through speech recognition and synthesis. You can use prebuilt and custom Speech service models for a variety of tasks, from transcribing audio to text with high accuracy, to identifying speakers in conversations, creating custom voices, and more.
@@ -519,7 +520,7 @@ Select only one answer.
 .. fairness
 .. inclusiveness
 .. transparency
-+
+
 .Answer
 [example%collapsible]
 `Accountability` defines the framework of governance and organizational principles, which are meant to ensure that AI solutions meet ethical and legal standards that are clearly defined. +
@@ -532,7 +533,7 @@ Select only one answer.
 .. fairness
 .. inclusiveness
 .. safety
-+
+
 .Answer
 [example%collapsible]
 `Fairness` is meant to ensure that AI models do not unintentionally incorporate a bias based on criteria such as gender or ethnicity. +
@@ -547,7 +548,7 @@ Select all answers that apply.
 .. fairness
 .. inclusiveness
 .. privacy and security
-+
+
 .Answer
 [example%collapsible]
 The accountability principle states that AI systems are designed to meet any ethical and legal standards that are applicable. The system must be designed to ensure that privacy of the healthcare data is of the highest importance, including anonymizing data where applicable. The fairness principle is applied to AI systems to ensure that users of the systems are treated fairly. The inclusiveness principle states that AI systems must empower people in a positive and engaging way.
@@ -556,7 +557,7 @@ The accountability principle states that AI systems are designed to meet any eth
 .. Azure Machine Learning
 .. Azure AI Bot Service
 .. Azure AI Language
-+
+
 .Answer
 [example%collapsible]
 Azure Machine Learning
@@ -565,7 +566,7 @@ Azure Machine Learning
 .. Azure AI Vision
 .. Azure AI Search
 .. Azure OpenAI
-+
+
 .Answer
 [example%collapsible]
 Azure AI Vision
@@ -574,7 +575,7 @@ Azure AI Vision
 .. Transparency
 .. Inclusiveness
 .. Fairness
-+
+
 .Answer
 [example%collapsible]
 Inclusiveness
@@ -583,7 +584,7 @@ Inclusiveness
 .. Regression
 .. Classification
 .. Clustering
-+
+
 .Answer
 [example%collapsible]
 Regression
@@ -592,7 +593,7 @@ Regression
 .. Mean squared error (MSE)
 .. Precision
 .. Silhouette
-+
+
 .Answer
 [example%collapsible]
 Precision
@@ -601,7 +602,7 @@ Precision
 .. To remove data for which no known label values are provided
 .. To evaluate the aggregate difference between predicted and actual label values
 .. To calculate the cost of training a neural network rather than a statistical model.
-+
+
 .Answer
 [example%collapsible]
 To evaluate the aggregate difference between predicted and actual label values
@@ -610,7 +611,7 @@ To evaluate the aggregate difference between predicted and actual label values
 .. Automatically deploy new versions of a model as they're trained
 .. Automatically provision Azure Machine Learning workspaces for new data scientists in an organisation
 .. Automatically run multiple training jobs using different algorithms and parameters to find the best model
-+
+
 .Answer
 [example%collapsible]
 Automatically run multiple training jobs using different algorithms and parameters to find the best model
@@ -619,7 +620,7 @@ Automatically run multiple training jobs using different algorithms and paramete
 .. A bundle of several AI services in one resource
 .. An AI service to recognize faces
 .. A single-service resource for Azure AI Search
-+
+
 .Answer
 [example%collapsible]
 A bundle of several AI services in one resource
@@ -628,7 +629,7 @@ A bundle of several AI services in one resource
 .. Timestamps in photograph metadata
 .. Pixels
 .. Image file names
-+
+
 .Answer
 [example%collapsible]
 Pixels
@@ -637,7 +638,7 @@ Pixels
 .. Objects
 .. Visual Tags
 .. Dense Captions
-+
+
 .Answer
 [example%collapsible]
 Objects
@@ -646,7 +647,7 @@ Objects
 .. A pair of coordinates for each face, indicating the center of the face
 .. Two pairs of coordinates for each face, indicating the location of the eyes
 .. A set of coordinates for each face, defining a rectangular bounding box around the face
-+
+
 .Answer
 [example%collapsible]
 A set of coordinates for each face, defining a rectangular bounding box around the face
@@ -655,7 +656,7 @@ A set of coordinates for each face, defining a rectangular bounding box around t
 .. Glasses
 .. Extreme angles
 .. Fast shutter speed
-+
+
 .Answer
 [example%collapsible]
 Extreme angles
@@ -664,7 +665,7 @@ Extreme angles
 .. Create an Azure Cognitive Search resource, and open Vision Studio
 .. Create a Face resource, and open Vision Studio
 .. Create a Face resource, and open Azure OpenAI Studio
-+
+
 .Answer
 [example%collapsible]
 Create a Face resource, and open Vision Studio
@@ -673,7 +674,7 @@ Create a Face resource, and open Vision Studio
 .. Results arranged in pages, lines, and words
 .. Only the bounding box coordinates
 .. Results arranged by pages that have photographs first, then pages that exclusively have text
-+
+
 .Answer
 [example%collapsible]
 Results arranged in pages, lines, and words
@@ -682,7 +683,7 @@ Results arranged in pages, lines, and words
 .. Sentiment analysis
 .. Key phrase extraction
 .. Entity detection
-+
+
 .Answer
 [example%collapsible]
 Key phrase extraction
@@ -691,7 +692,7 @@ Key phrase extraction
 .. The document is positive.
 .. The document is neutral.
 .. The document is negative.
-+
+
 .Answer
 [example%collapsible]
 The document is negative.
@@ -700,7 +701,7 @@ The document is negative.
 .. When the score calculated by the service is outside the range of 0 to 1
 .. When the predominant language in the text is mixed with other languages
 .. When the language is ambiguous
-+
+
 .Answer
 [example%collapsible]
 When the language is ambiguous
@@ -709,7 +710,7 @@ When the language is ambiguous
 .. Create an empty knowledge base, and then manually copy and paste the FAQ entries into it.
 .. Import the existing FAQ document into a new knowledge base.
 .. Import a pre-defined chit-chat data source.
-+
+
 .Answer
 [example%collapsible]
 Import the existing FAQ document into a new knowledge base.
@@ -718,7 +719,7 @@ Import the existing FAQ document into a new knowledge base.
 .. Conversational Language Understanding
 .. Question Answering
 .. Optical Character Recognition
-+
+
 .Answer
 [example%collapsible]
 Question Answering
@@ -727,7 +728,7 @@ Question Answering
 .. Azure AI Speech
 .. Azure AI Language
 .. Azure AI services
-+
+
 .Answer
 [example%collapsible]
 Azure AI Language
@@ -736,7 +737,7 @@ Azure AI Language
 .. Define a "city" entity and a "GetTime" intent with utterances that indicate the city entity.
 .. Create an intent for each city, each with an utterance that asks for the time in that city.
 .. Add the utterance "What time is it in city" to the "None" intent.
-+
+
 .Answer
 [example%collapsible]
 Define a "city" entity and a "GetTime" intent with utterances that indicate the city entity.
@@ -745,7 +746,7 @@ Define a "city" entity and a "GetTime" intent with utterances that indicate the 
 .. The endpoint and key for the application's prediction resource
 .. The endpoint and key for the application's authoring resource
 .. The Azure credentials of the user who published the language understanding application
-+
+
 .Answer
 [example%collapsible]
 The endpoint and key for the application's prediction resource
@@ -754,7 +755,7 @@ The endpoint and key for the application's prediction resource
 .. Speech to text
 .. Text to speech
 .. Translator
-+
+
 .Answer
 [example%collapsible]
 Text to speech
@@ -763,7 +764,7 @@ Text to speech
 .. Azure AI Vision resource
 .. Azure AI Document Intelligence or Azure AI services resource.
 .. Azure AI Language resource.
-+
+
 .Answer
 [example%collapsible]
 Azure AI Document Intelligence or Azure AI services resource.
@@ -772,7 +773,7 @@ Azure AI Document Intelligence or Azure AI services resource.
 .. Merchant retail type.
 .. Merchant name and address.
 .. Merchant name and date of incorporation.
-+
+
 .Answer
 [example%collapsible]
 Merchant name and address
@@ -781,7 +782,7 @@ Merchant name and address
 .. Train the model on sample receipts from your organisation.
 .. Create an Azure AI Document Intelligence resource.
 .. Nothing - receipt analyzer is available once you create an Azure subscription.
-+
+
 .Answer
 [example%collapsible]
 Create an Azure AI Document Intelligence resource.
@@ -790,7 +791,7 @@ Create an Azure AI Document Intelligence resource.
 .. CSV
 .. SQL
 .. JSON
-+
+
 .Answer
 [example%collapsible]
 JSON
@@ -799,7 +800,7 @@ JSON
 .. An indexer converts documents into JSON and forwards them to a search engine for indexing.
 .. An indexer can be used instead of an index if the files are already in the proper format.
 .. An indexer is only used for AI enrichment and skillset execution.
-+
+
 .Answer
 [example%collapsible]
 An indexer converts documents into JSON and forwards them to a search engine for indexing.
@@ -808,7 +809,7 @@ An indexer converts documents into JSON and forwards them to a search engine for
 .. Sentiment
 .. Text content
 .. Image captions
-+
+
 .Answer
 [example%collapsible]
 Text content
@@ -817,7 +818,7 @@ Text content
 .. Monitoring the temperature in a manufacturing facility.
 .. Creating a draft for an email.
 .. Collecting real time data and storing it in a database.
-+
+
 .Answer
 [example%collapsible]
 Creating a draft for an email.
@@ -826,7 +827,7 @@ Creating a draft for an email.
 .. To represent semantic meaning of text tokens.
 .. To create tokens that include multiple representations of a word in different languages.
 .. To correct misspellings in the training data.
-+
+
 .Answer
 [example%collapsible]
 To represent semantic meaning of text tokens.
@@ -835,7 +836,7 @@ To represent semantic meaning of text tokens.
 .. Copilots only impact applications used in professional settings.
 .. Copilots can help with first drafts, information synthesis, strategic planning, and much more.
 .. Copilots can only be used for certain natural language tasks like summarizing text.
-+
+
 .Answer
 [example%collapsible]
 Copilots can help with first drafts, information synthesis, strategic planning, and much more.
@@ -845,7 +846,7 @@ Copilots can help with first drafts, information synthesis, strategic planning, 
 .. Features are independent of each other.
 .. Labels are dependent on each other.
 .. Labels are independent of each other.
-+
+
 .Answer
 [example%collapsible]
 Features are independent of each other.
@@ -854,7 +855,7 @@ Features are independent of each other.
 .. Azure OpenAI is Microsoft's version of ChatGPT, a chatbot that uses generative AI models.
 .. ChatGPT and OpenAI are chatbots that generate natural language, code, and images. Azure OpenAI provides access to these two chatbots.
 .. OpenAI is a research company that developed ChatGPT, a chatbot that uses generative AI models. Azure OpenAI provides access to many of OpenAI's AI models
-+
+
 .Answer
 [example%collapsible]
 OpenAI is a research company that developed ChatGPT, a chatbot that uses generative AI models. Azure OpenAI provides access to many of OpenAI's AI models
@@ -863,7 +864,7 @@ OpenAI is a research company that developed ChatGPT, a chatbot that uses generat
 .. Provides Transparency Notes that share how technology is built and asks users to consider its implications.
 .. Logs users out of Azure OpenAI Studio after a period of inactivity to ensure it's only used by one user.
 .. Allows users to build any application, regardless of harmful effects, to ensure fairness.
-+
+
 .Answer
 [example%collapsible]
 Provides Transparency Notes that share how technology is built and asks users to consider its implications.
@@ -872,7 +873,7 @@ Provides Transparency Notes that share how technology is built and asks users to
 .. To make a legal case that indemnifies you from responsibility for harms caused by the solution
 .. To document the purpose, expected use, and potential harms for the solution
 .. To evaluate the cost of cloud services required to implement your solution
-+
+
 .Answer
 [example%collapsible]
 To document the purpose, expected use, and potential harms for the solution
@@ -881,7 +882,7 @@ To document the purpose, expected use, and potential harms for the solution
 .. DALL-E model support
 .. Fine-tuning
 .. Content filters
-+
+
 .Answer
 [example%collapsible]
 Content filters
@@ -890,7 +891,7 @@ Content filters
 .. To enable you to gather feedback and identify issues before releasing the solution more broadly
 .. To eliminate the need to identify, measure, and mitigate potential harms
 .. To enable you to charge more for the solution
-+
+
 .Answer
 [example%collapsible]
 To enable you to gather feedback and identify issues before releasing the solution more broadly
@@ -902,7 +903,7 @@ Select only one answer.
 .. facial detection
 .. image classification
 .. object detection
-+
+
 .Answer
 [example%collapsible]
 `Image classification` is part of computer vision and can be used to evaluate images from an X-ray machine to quickly classify specific bone fracture types. This helps improve diagnosis and treatment plans. An image classification model is trained to facilitate the categorizing of the bone fractures. +
@@ -917,7 +918,7 @@ Select only one answer.
 .. linear regression
 .. object detection
 .. optical character recognition (OCR)
-+
+
 .Answer
 [example%collapsible]
 `Object detection` can be used to evaluate traffic monitoring images to quickly classify specific vehicle types, such as car, bus, or cyclist. +
@@ -932,7 +933,7 @@ Select only one answer.
 .. speech recognition
 .. speech synthesis
 .. speech translation
-+
+
 .Answer
 [example%collapsible]
 `Speech recognition` uses audio data to analyze speech and determine recognizable patterns that can be mapped to distinct user voices. +
