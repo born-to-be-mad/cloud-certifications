@@ -137,10 +137,8 @@ Featurization is not a machine learning type, but a collection of techniques, su
 Classification is used to predict categories of data.
 
 '''
-
 .*Which feature makes regression an example of supervised machine learning?* +
 Select only one answer.
-
 .. use of historical data with known label values to train a model
 .. use of historical data with unknown label values to train a model
 .. use of randomly generated data with known label values to train a model
@@ -152,6 +150,7 @@ Select only one answer.
 Regression is an example of supervised machine learning due to the use of historical data with known label values to train a model.
 Regression does not rely on randomly generated data for training.
 
+'''
 .*In a regression machine learning algorithm, what are the characteristics of features and labels in a validation dataset?* +
 Select only one answer.
 
@@ -164,6 +163,7 @@ Select only one answer.
 [example%collapsible]
 In a regression machine learning algorithm, a validation set contains `known feature and label values`.
 
+'''
 .*In a regression machine learning algorithm, how are features and labels handled in a validation dataset?* +
 Select only one answer.
 
@@ -177,6 +177,7 @@ Select only one answer.
 In a regression machine learning algorithm, features are used to generate predictions for the label, which is compared to the actual label value.
 There is no direct comparison of features or labels between the validation and training datasets.
 
+'''
 .*A company is using machine learning to predict various aspects of its e-scooter hire service dependent on weather. This includes predicting the number of hires, the average distance traveled, and the impact on e-scooter battery levels. For the machine learning model, which two attributes are the features? Each correct answer presents a complete solution.* +
 Select all answers that apply.
 
@@ -192,6 +193,7 @@ Weather temperature and weekday or weekend are features that provide a weather t
 These are input variables for the model to help predict the labels for e-scooter battery levels, number of hires, and distance traveled. +
 E-scooter battery levels, number of hires, and distance traveled are numeric labels you are attempting to predict through the machine learning model.
 
+'''
 .*What should you do after preparing a dataset and before training the machine learning model? +
 Select only one answer.*
 
@@ -221,6 +223,7 @@ A `dataset` is required to create an automated machine learning (automated ML) r
 A workspace must be created before you can access Machine Learning studio.
 An Azure container instance and an AKS cluster can be created as a deployment target, after training of a model is complete.
 
+'''
 .*You need to use Azure Machine Learning to train a regression model. What should you create in Machine Learning studio?* +
 Select only one answer.
 
@@ -235,6 +238,7 @@ A `job` must be created in Machine Learning studio to use Machine Learning to tr
 A workspace must be created before you can access Machine Learning studio. +
 An Azure container instance and an AKS cluster can be created as a deployment target, after training of a model is complete.
 
+'''
 .*You need to use the Azure Machine Learning designer to train a machine learning model. What should you do first in the Machine Learning designer?* +
 Select only one answer.
 
@@ -249,6 +253,7 @@ Select only one answer.
 Before you can start training a machine learning model, you must first `create a pipeline` in the Machine Learning designer.
 This is followed by adding a dataset, adding training modules, and eventually deploying a service.
 
+'''
 .*Which three supervised machine learning models can you train by using automated machine learning (automated ML) in the Azure Machine Learning studio? Each correct answer presents a complete solution.* +
 Select all answers that apply.
 
