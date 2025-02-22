@@ -65,6 +65,10 @@ Azure AI Document Intelligence:: A service that allows to use pre-built or custo
 Azure AI Content Understanding:: A service that provides multi-modal content analysis capabilities that enable you to build models to extract data from forms and documents, images, videos, and audio streams
 Azure AI Search:: A service that uses a pipeline of AI skills based on other Azure AI Services and custom code to extract information from content and create a searchable index.
 Azure AI Hub:: A top-level container for managing shared resources, data, connections and security configuration for AI application development.
+Azure AI Agent Service:: A managed service in Azure that is designed to provide a framework for creating, managing, and using AI agents within Azure AI Foundry.
+AI agents:: Smart software services that combine generative AI models with contextual data and the ability to automate tasks based on user input and environmental factors that they perceive.
+
+
 
 == Practical questions
 
