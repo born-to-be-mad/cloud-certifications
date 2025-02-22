@@ -53,6 +53,7 @@ Reference: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai
 * https://learn.microsoft.com/en-us/training/modules/ai-agent-fundamentals/[Fundamentals of AI agents on Azure]
 
 == Glossary
+
 Azure OpenAI:: A service that provides access to OpenAI generative AI models including the GPT family of large and small language models and DALL-E image-generation models within a scalable and securable cloud service on Azure.
 Azure AI Vision:: A service that provides a set of models and APIs that can be used to implement common computer vision functionality in an application.
 Azure AI Speech:: A service that provides APIs that you can use to implement text to speech and speech to text transformation, as well as specialized speech-based capabilities like speaker recognition and translation.
@@ -67,7 +68,6 @@ Azure AI Search:: A service that uses a pipeline of AI skills based on other Azu
 Azure AI Hub:: A top-level container for managing shared resources, data, connections and security configuration for AI application development.
 Azure AI Agent Service:: A managed service in Azure that is designed to provide a framework for creating, managing, and using AI agents within Azure AI Foundry.
 AI agents:: Smart software services that combine generative AI models with contextual data and the ability to automate tasks based on user input and environmental factors that they perceive.
-
 
 == Practical questions
 
@@ -87,6 +87,7 @@ Select only one answer.
 `Clustering` algorithms group data points that have similar characteristics. `Regression` algorithms are used to predict numeric values. `Classification` algorithms are used to predict a predefined category to which an input value belongs. `Supervised` learning is a category of learning algorithms that includes regression and classification, but not clustering.
 
 '''
+
 .*Which type of machine learning algorithm finds the optimal way to split a dataset into groups without relying on training and validating label predictions?* +
 Select only one answer.
 
@@ -101,6 +102,7 @@ Select only one answer.
 `Clustering` algorithms group data points that have similar characteristics. `Regression` algorithms are used to predict numeric values. `Classification` algorithms are used to predict a predefined category to which an input value belongs. `Supervised` learning is a category of learning algorithms that includes regression and classification, but not clustering.
 
 '''
+
 .*A retailer wants to group together online shoppers that have similar attributes to enable its marketing team to create targeted marketing campaigns for new product launches.* +
 Which type of machine learning is this?
 Select only one answer.
@@ -113,13 +115,15 @@ Select only one answer.
 .Answer
 [example%collapsible]
 **clustering** +
-Clustering is a machine learning type that analyzes unlabeled data to find similarities present in the data. It then groups (clusters) similar data together. In this example, the company can group online customers based on attributes that include demographic data and shopping behaviors. The company can then recommend new products to those groups of customers who are most likely to be interested in them. +
-Classification and multiclass classification are used to predict categories of data. Regression is a machine learning scenario that is used to predict numeric values.
-
+Clustering is a machine learning type that analyzes unlabeled data to find similarities present in the data.
+It then groups (clusters) similar data together.
+In this example, the company can group online customers based on attributes that include demographic data and shopping behaviors.
+The company can then recommend new products to those groups of customers who are most likely to be interested in them. +
+Classification and multiclass classification are used to predict categories of data.
+Regression is a machine learning scenario that is used to predict numeric values.
 
 '''
 .*Predicting rainfall for a specific geographical location is an example of which type of machine learning?*
-
 .. classification
 .. clustering
 .. featurization
@@ -127,10 +131,14 @@ Classification and multiclass classification are used to predict categories of d
 
 .Answer
 [example%collapsible]
-Predicting rainfall is an example of regression machine learning, as it will predict a numeric value for future rainfall by using historical time-series rainfall data based on factors, such as seasons. Clustering is a machine learning type that analyzes unlabeled data to find similarities in the data. Featurization is not a machine learning type, but a collection of techniques, such as feature engineering, data-scaling, and normalization. Classification is used to predict categories of data.
+Predicting rainfall is an example of regression machine learning, as it will predict a numeric value for future rainfall by using historical time-series rainfall data based on factors, such as seasons.
+Clustering is a machine learning type that analyzes unlabeled data to find similarities in the data.
+Featurization is not a machine learning type, but a collection of techniques, such as feature engineering, data-scaling, and normalization.
+Classification is used to predict categories of data.
 
+'''
 
-.Which feature makes regression an example of supervised machine learning? +
+.*Which feature makes regression an example of supervised machine learning?* +
 Select only one answer.
 
 .. use of historical data with known label values to train a model
@@ -141,7 +149,8 @@ Select only one answer.
 .Answer
 [example%collapsible]
 **use of historical data with known label values to train a model** +
-Regression is an example of supervised machine learning due to the use of historical data with known label values to train a model. Regression does not rely on randomly generated data for training.
+Regression is an example of supervised machine learning due to the use of historical data with known label values to train a model.
+Regression does not rely on randomly generated data for training.
 
 .*In a regression machine learning algorithm, what are the characteristics of features and labels in a validation dataset?* +
 Select only one answer.
@@ -165,9 +174,10 @@ Select only one answer.
 
 .Answer
 [example%collapsible]
-In a regression machine learning algorithm, features are used to generate predictions for the label, which is compared to the actual label value. There is no direct comparison of features or labels between the validation and training datasets.
+In a regression machine learning algorithm, features are used to generate predictions for the label, which is compared to the actual label value.
+There is no direct comparison of features or labels between the validation and training datasets.
 
-.A company is using machine learning to predict various aspects of its e-scooter hire service dependent on weather. This includes predicting the number of hires, the average distance traveled, and the impact on e-scooter battery levels. For the machine learning model, which two attributes are the features? Each correct answer presents a complete solution. +
+.*A company is using machine learning to predict various aspects of its e-scooter hire service dependent on weather. This includes predicting the number of hires, the average distance traveled, and the impact on e-scooter battery levels. For the machine learning model, which two attributes are the features? Each correct answer presents a complete solution.* +
 Select all answers that apply.
 
 .. distance traveled
@@ -178,11 +188,12 @@ Select all answers that apply.
 
 .Answer
 [example%collapsible]
-Weather temperature and weekday or weekend are features that provide a weather temperature for a given day and a value based on whether the day is on a weekend or weekday. These are input variables for the model to help predict the labels for e-scooter battery levels, number of hires, and distance traveled. +
+Weather temperature and weekday or weekend are features that provide a weather temperature for a given day and a value based on whether the day is on a weekend or weekday.
+These are input variables for the model to help predict the labels for e-scooter battery levels, number of hires, and distance traveled. +
 E-scooter battery levels, number of hires, and distance traveled are numeric labels you are attempting to predict through the machine learning model.
 
-.What should you do after preparing a dataset and before training the machine learning model? +
-Select only one answer.
+.*What should you do after preparing a dataset and before training the machine learning model? +
+Select only one answer.*
 
 .. clean missing data
 .. normalize the data
@@ -191,10 +202,12 @@ Select only one answer.
 
 .Answer
 [example%collapsible]
-`Splitting data into training and validation datasets` leaves you with two datasets, the first and largest of which is the training dataset you use to train the model. The second, smaller dataset is the held back data and is called the validation dataset, as it is used to evaluate the trained model. If normalizing or summarizing the data is required, it will be carried out as part of data transformation. +
+`Splitting data into training and validation datasets` leaves you with two datasets, the first and largest of which is the training dataset you use to train the model.
+The second, smaller dataset is the held back data and is called the validation dataset, as it is used to evaluate the trained model.
+If normalizing or summarizing the data is required, it will be carried out as part of data transformation. +
 Cleaning missing data is part of preparing the data and the data transformation processes.
 
-.You need to create an automated machine learning (automated ML) model. Which resource should you create first in Azure Machine Learning studio? +
+.*You need to create an automated machine learning (automated ML) model. Which resource should you create first in Azure Machine Learning studio?* +
 Select only one answer.
 
 .. a dataset
@@ -204,9 +217,11 @@ Select only one answer.
 
 .Answer
 [example%collapsible]
-A `dataset` is required to create an automated machine learning (automated ML) run. A workspace must be created before you can access Machine Learning studio. An Azure container instance and an AKS cluster can be created as a deployment target, after training of a model is complete.
+A `dataset` is required to create an automated machine learning (automated ML) run.
+A workspace must be created before you can access Machine Learning studio.
+An Azure container instance and an AKS cluster can be created as a deployment target, after training of a model is complete.
 
-.You need to use Azure Machine Learning to train a regression model. What should you create in Machine Learning studio? +
+.*You need to use Azure Machine Learning to train a regression model. What should you create in Machine Learning studio?* +
 Select only one answer.
 
 .. a job
@@ -220,7 +235,7 @@ A `job` must be created in Machine Learning studio to use Machine Learning to tr
 A workspace must be created before you can access Machine Learning studio. +
 An Azure container instance and an AKS cluster can be created as a deployment target, after training of a model is complete.
 
-.You need to use the Azure Machine Learning designer to train a machine learning model. What should you do first in the Machine Learning designer? +
+.*You need to use the Azure Machine Learning designer to train a machine learning model. What should you do first in the Machine Learning designer?* +
 Select only one answer.
 
 .. Add a dataset.
@@ -231,9 +246,10 @@ Select only one answer.
 .Answer
 [example%collapsible]
 **Create a pipeline.** +
-Before you can start training a machine learning model, you must first `create a pipeline` in the Machine Learning designer. This is followed by adding a dataset, adding training modules, and eventually deploying a service.
+Before you can start training a machine learning model, you must first `create a pipeline` in the Machine Learning designer.
+This is followed by adding a dataset, adding training modules, and eventually deploying a service.
 
-.Which three supervised machine learning models can you train by using automated machine learning (automated ML) in the Azure Machine Learning studio? Each correct answer presents a complete solution. +
+.*Which three supervised machine learning models can you train by using automated machine learning (automated ML) in the Azure Machine Learning studio? Each correct answer presents a complete solution.* +
 Select all answers that apply.
 
 .. Classification
@@ -244,7 +260,12 @@ Select all answers that apply.
 
 .Answer
 [example%collapsible]
-`Time-series forecasting, regression, and classification` are supervised machine learning models. Automated ML learning can predict categories or classes by using a classification algorithm, as well as numeric values as part of the regression algorithm, and at a future point in time by using time-series data. Inference pipeline is not a machine learning model. Clustering is unsupervised machine learning and automated ML only works with supervised learning algorithms.
+`Time-series forecasting, regression, and classification` are supervised machine learning models.
+Automated ML learning can predict categories or classes by using a classification algorithm, as well as numeric values as part of the regression algorithm, and at a future point in time by using time-series data.
+Inference pipeline is not a machine learning model.
+Clustering is unsupervised machine learning and automated ML only works with supervised learning algorithms.
+
+'''
 
 .*Which three data transformation modules are in the Azure Machine Learning designer? Each correct answer presents a complete solution.* +
 Select all answers that apply.
@@ -258,11 +279,15 @@ Select all answers that apply.
 .Answer
 [example%collapsible]
 **Clean Missing Data, Normalize Data, Select Columns in Dataset**
-Normalize Data is a data transformation module that is used to change the values of numeric columns in a dataset to a common scale, without distorting differences in the range of values. The Clean Missing Data module is part of preparing the data and data transformation process. Select Columns in Dataset is a data transformation component that is used to choose a subset of columns of interest from a dataset. The train clustering model is not a part of data transformation. The evaluate model is a component used to measure the accuracy of training models.
+Normalize Data is a data transformation module that is used to change the values of numeric columns in a dataset to a common scale, without distorting differences in the range of values.
+The Clean Missing Data module is part of preparing the data and data transformation process.
+Select Columns in Dataset is a data transformation component that is used to choose a subset of columns of interest from a dataset.
+The train clustering model is not a part of data transformation.
+The evaluate model is a component used to measure the accuracy of training models.
 
 '''
 
-.Which part of speech synthesis in natural language processing (NLP) involves breaking text into individual words such that each word can be assigned phonetic sounds? +
+.*Which part of speech synthesis in natural language processing (NLP) involves breaking text into individual words such that each word can be assigned phonetic sounds?* +
 Select only one answer.
 
 .. lemmatization
@@ -278,6 +303,7 @@ Key phrase extraction is part of language processing, not speech synthesis. +
 Lemmatization, also known as stemming, is part of language processing, not speech synthesis.
 
 '''
+
 .*Which natural language processing (NLP) technique normalizes words before counting them?* +
 Select only one answer.
 
@@ -293,6 +319,8 @@ Frequency analysis counts how often a word appears in a text. +
 N-grams extend frequency analysis to include multi-term phrases. +
 Vectorization captures semantic relationships between words by assigning them to locations in n-dimensional space.
 
+'''
+
 .*Which Azure AI Service for Language feature can be used to analyze online user reviews to identify whether users view a product positively or negatively?* +
 Select only one answer.
 
@@ -303,10 +331,13 @@ Select only one answer.
 
 .Answer
 [example%collapsible]
-`Sentiment analysis` provides sentiment labels, such as negative, neutral, and positive, based on a confidence score from text analysis. This makes it suitable for understanding user sentiment for product reviews. +
+`Sentiment analysis` provides sentiment labels, such as negative, neutral, and positive, based on a confidence score from text analysis.
+This makes it suitable for understanding user sentiment for product reviews. +
 The named entity recognition, key phrase extraction, and language detection features cannot perform sentiment analysis for product reviews.
 
-.Which Azure AI Service for Language feature allows you to analyze written articles to extract information and concepts, such as people and locations, for classification purposes? +
+'''
+
+.*Which Azure AI Service for Language feature allows you to analyze written articles to extract information and concepts, such as people and locations, for classification purposes?* +
 Select only one answer.
 
 .. Azure AI Content Moderator
@@ -319,7 +350,9 @@ Select only one answer.
 `Named entity recognition` can identify and categorize entities in unstructured text, such as people, places, organizations, and quantities, and is suitable to support the development of an article recommendation system. +
 Key phrase extraction, Content Moderator, and the PII feature are not suited to entity recognition tasks to build a recommender system.
 
-.Which two features of Azure AI Services allow you to identify issues from support question data, as well as identify any people and products that are mentioned? Each correct answer presents part of the solution. +
+'''
+
+.*Which two features of Azure AI Services allow you to identify issues from support question data, as well as identify any people and products that are mentioned? Each correct answer presents part of the solution.* +
 Select all answers that apply.
 
 .. Azure AI Bot Service
@@ -330,10 +363,14 @@ Select all answers that apply.
 
 .Answer
 [example%collapsible]
-`Key phrase extraction` is used to extract key phrases to identify the main concepts in a text. It enables a company to identify the main talking points from the support question data and allows them to identify common issues. +
-`Named entity recognition` can identify and categorize entities in unstructured text, such as people, places, organizations, and quantities. The Azure AI Speech service, Conversational Language Understanding, and Azure AI Bot Service are not designed for identifying key phrases or entities.
+`Key phrase extraction` is used to extract key phrases to identify the main concepts in a text.
+It enables a company to identify the main talking points from the support question data and allows them to identify common issues. +
+`Named entity recognition` can identify and categorize entities in unstructured text, such as people, places, organizations, and quantities.
+The Azure AI Speech service, Conversational Language Understanding, and Azure AI Bot Service are not designed for identifying key phrases or entities.
 
-.Which Azure AI Service for Language feature allows you to analyze written articles to extract information and concepts, such as people and locations, for classification purposes? +
+'''
+
+.*Which Azure AI Service for Language feature allows you to analyze written articles to extract information and concepts, such as people and locations, for classification purposes?* +
 Select only one answer.
 
 .. Azure AI Content Moderator
@@ -343,7 +380,10 @@ Select only one answer.
 
 .Answer
 [example%collapsible]
-`Named entity recognition` can identify and categorize entities in unstructured text, such as people, places, organizations, and quantities, and is suitable to support the development of an article recommendation system. Key phrase extraction, Content Moderator, and the PII feature are not suited to entity recognition tasks to build a recommender system.
+`Named entity recognition` can identify and categorize entities in unstructured text, such as people, places, organizations, and quantities, and is suitable to support the development of an article recommendation system.
+Key phrase extraction, Content Moderator, and the PII feature are not suited to entity recognition tasks to build a recommender system.
+
+'''
 
 .*Which feature of the Azure AI Language service includes functionality that returns links to external websites to disambiguate terms identified in a text?* +
 Select only one answer.
@@ -360,7 +400,9 @@ Key phrase extraction evaluates the text of a document and identifies its main t
 Azure AI Language detection identifies the language in which text is written. +
 Sentiment analysis evaluates text and returns sentiment scores and labels for each sentence.
 
-.When using the Azure AI Service for Language, what should you use to provide further information online about entities extracted from a text? +
+'''
+
+.*When using the Azure AI Service for Language, what should you use to provide further information online about entities extracted from a text?* +
 Select only one answer.
 
 .. entity linking
@@ -375,7 +417,9 @@ Key phrase extraction is not used to extract entities and is used instead to ext
 Named entity recognition cannot provide a link for each entity to view further information. +
 Text translation is part of the Azure AI Translator service.
 
-.Which two specialized domain models are supported by Azure AI Vision when categorizing an image? Each correct answer presents a complete solution. +
+'''
+
+.*Which two specialized domain models are supported by Azure AI Vision when categorizing an image? Each correct answer presents a complete solution.* +
 Select all answers that apply.
 
 .. celebrities
@@ -386,21 +430,30 @@ Select all answers that apply.
 
 .Answer
 [example%collapsible]
-When categorizing an image, the Azure AI Vision service supports two specialized domain models: `celebrities` and `landmarks`. Image types is an additional capability of the computer vision service, allowing it to detect the type of image, such as a clip art image or a line drawing. Both people_ and people_group are supported categories when performing image classification.
+When categorizing an image, the Azure AI Vision service supports two specialized domain models: `celebrities` and `landmarks`.
+Image types is an additional capability of the computer vision service, allowing it to detect the type of image, such as a clip art image or a line drawing.
+Both people_ and people_group are supported categories when performing image classification.
 
-.Which computer vision service provides bounding coordinates as part of its output? +
+'''
+
+.*Which computer vision service provides bounding coordinates as part of its output?* +
 Select only one answer.
 
-image analysis
-image classification
-object detection
-semantic segmentation
+.. image analysis
+.. image classification
+.. object detection
+.. semantic segmentation
 
 .Answer
 [example%collapsible]
-`Object detection` provides the ability to generate bounding boxes that identify the locations of different types of objects in an image, including the bounding box coordinates, designating the location of the object in the image. Semantic segmentation provides the ability to classify individual pixels in an image. Image classification classifies images based on their contents. Image analysis extracts information from the image to label it with tags or captions.
+`Object detection` provides the ability to generate bounding boxes that identify the locations of different types of objects in an image, including the bounding box coordinates, designating the location of the object in the image.
+Semantic segmentation provides the ability to classify individual pixels in an image.
+Image classification classifies images based on their contents.
+Image analysis extracts information from the image to label it with tags or captions.
 
-.Which three parts of the machine learning process does the Azure AI Vision eliminate the need for? Each correct answer presents part of the solution. +
+'''
+
+.*Which three parts of the machine learning process does the Azure AI Vision eliminate the need for? Each correct answer presents part of the solution.* +
 Select all answers that apply.
 
 .. Azure resource provisioning
@@ -411,9 +464,13 @@ Select all answers that apply.
 
 .Answer
 [example%collapsible]
-The computer vision service eliminates the need for `choosing, training, and evaluating` a model by providing pre-trained models. To use computer vision, you must create an Azure resource. The use of computer vision involves inferencing.
+The computer vision service eliminates the need for `choosing, training, and evaluating` a model by providing pre-trained models.
+To use computer vision, you must create an Azure resource.
+The use of computer vision involves inferencing.
 
-.Which two Azure AI Document Intelligence models include identifying common data fields as part of its data extraction capabilities? Each correct answer presents a complete solution. +
+'''
+
+.*Which two Azure AI Document Intelligence models include identifying common data fields as part of its data extraction capabilities? Each correct answer presents a complete solution.* +
 Select all answers that apply.
 
 .. business card model
@@ -425,9 +482,12 @@ Select all answers that apply.
 .Answer
 [example%collapsible]
 The `business card model` analyzes and extracts key information from business card images and includes common data field extractions, such as name and email. +
-The `invoice model` extracts key information from sales invoices and includes common data fields used in invoices for extraction. The read model, layout model, and general document model do not identify and extract common data fields.
+The `invoice model` extracts key information from sales invoices and includes common data fields used in invoices for extraction.
+The read model, layout model, and general document model do not identify and extract common data fields.
 
-.When using the Face Detect API of the Azure AI Face service, which feature helps identify whether a human face has glasses or headwear? +
+'''
+
+.*When using the Face Detect API of the Azure AI Face service, which feature helps identify whether a human face has glasses or headwear?* +
 Select only one answer.
 
 .. face attributes
@@ -437,10 +497,13 @@ Select only one answer.
 
 .Answer
 [example%collapsible]
-`Face attributes` are a set of features that can be detected by the Face Detect API. Attributes such as accessories (glasses, mask, headwear etc.) can be detected. +
+`Face attributes` are a set of features that can be detected by the Face Detect API.
+Attributes such as accessories (glasses, mask, headwear etc.) can be detected. +
 Face rectangle, face ID, and face landmarks do not allow you to determine whether a person is wearing glasses or headwear.
 
-.When using the Azure AI Face service, what should you use to perform one-to-many or one-to-one face matching? Each correct answer presents a complete solution. +
+'''
+
+.*When using the Azure AI Face service, what should you use to perform one-to-many or one-to-one face matching? Each correct answer presents a complete solution.* +
 Select all answers that apply.
 
 .. Custom Vision
@@ -455,7 +518,9 @@ Select all answers that apply.
 `Face verification` has the capability for one-to-one matching of a face in an image to a single face from a secure repository or a photo to verify whether they are the same individual. +
 Face attributes, the find similar faces operation, and Azure AI Custom Vision do not verify the identity of a face.
 
-.Which service can you use to train an image classification model? +
+'''
+
+.*Which service can you use to train an image classification model?* +
 Select only one answer.
 
 .. Azure AI Vision
@@ -465,9 +530,12 @@ Select only one answer.
 
 .Answer
 [example%collapsible]
-`Azure AI Custom Vision` is an image recognition service that allows you to build and deploy your own image models. The Azure AI vision service, Azure AI Face service, and Azure AI Language service do not provide the capability to train your own image model.
+`Azure AI Custom Vision` is an image recognition service that allows you to build and deploy your own image models.
+The Azure AI vision service, Azure AI Face service, and Azure AI Language service do not provide the capability to train your own image model.
 
-.Select the answer that correctly completes the sentence. [Answer choice] can return responses, such as natural language, images, or code, based on natural language input. +
+'''
+
+.*Select the answer that correctly completes the sentence. [Answer choice] can return responses, such as natural language, images, or code, based on natural language input.* +
 Select only one answer.
 
 .. Computer vision
@@ -478,9 +546,12 @@ Select only one answer.
 
 .Answer
 [example%collapsible]
-`Generative AI models` offer the capability of generating images based on a prompt by using DALL-E models, such as generating images from natural language. The other AI capabilities are used in different contexts to achieve other goals.
+`Generative AI models` offer the capability of generating images based on a prompt by using DALL-E models, such as generating images from natural language.
+The other AI capabilities are used in different contexts to achieve other goals.
 
-.Select the answer that correctly completes the sentence. [Answer choice] can used to identify constraints and styles for the responses of a generative AI model. +
+'''
+
+.*Select the answer that correctly completes the sentence. [Answer choice] can used to identify constraints and styles for the responses of a generative AI model.* +
 Select only one answer.
 
 .. Data grounding
@@ -490,9 +561,13 @@ Select only one answer.
 
 .Answer
 [example%collapsible]
-`System messages` should be used to set the context for the model by describing expectations. Based on system messages, the model knows how to respond to prompts. The other techniques are also used in generative AI models, but for other use cases.
+`System messages` should be used to set the context for the model by describing expectations.
+Based on system messages, the model knows how to respond to prompts.
+The other techniques are also used in generative AI models, but for other use cases.
 
-.Which two capabilities are examples of a GPT model? Each correct answer presents a complete solution. +
+'''
+
+.*Which two capabilities are examples of a GPT model? Each correct answer presents a complete solution.* +
 Select all answers that apply.
 
 .. Create natural language.
@@ -503,9 +578,12 @@ Select all answers that apply.
 
 .Answer
 [example%collapsible]
-Azure OpenAI natural language models can take in natural language and generate responses. GPT models are excellent at both `understanding and creating natural language`.
+Azure OpenAI natural language models can take in natural language and generate responses.
+GPT models are excellent at both `understanding and creating natural language`.
 
-.Select the answer that correctly completes the sentence. [Answer choice] can search, classify, and compare sources of text for similarity. +
+'''
+
+.*Select the answer that correctly completes the sentence. [Answer choice] can search, classify, and compare sources of text for similarity.* +
 Select only one answer.
 
 .. Data grounding
@@ -515,9 +593,12 @@ Select only one answer.
 
 .Answer
 [example%collapsible]
-`Embeddings` is an Azure OpenAI model that converts text into numerical vectors for analysis. Embeddings can be used to search, classify, and compare sources of text for similarity.
+`Embeddings` is an Azure OpenAI model that converts text into numerical vectors for analysis.
+Embeddings can be used to search, classify, and compare sources of text for similarity.
 
-.Which type of artificial intelligence (AI) workload has the primary purpose of making large amounts of data searchable? +
+'''
+
+.*Which type of artificial intelligence (AI) workload has the primary purpose of making large amounts of data searchable?* +
 Select only one answer.
 
 .. image analysis
@@ -527,9 +608,12 @@ Select only one answer.
 
 .Answer
 [example%collapsible]
-`Knowledge mining` is an artificial intelligence (AI) workload that has the purpose of making large amounts of data searchable. While other workloads leverage indexing for faster access to large amounts of data, this is not their primary purpose.
+`Knowledge mining` is an artificial intelligence (AI) workload that has the purpose of making large amounts of data searchable.
+While other workloads leverage indexing for faster access to large amounts of data, this is not their primary purpose.
 
-.Which type of artificial intelligence (AI) workload provides the ability to classify individual pixels in an image depending on the object that they represent? +
+'''
+
+.*Which type of artificial intelligence (AI) workload provides the ability to classify individual pixels in an image depending on the object that they represent?* +
 Select only one answer.
 
 .. image analysis
@@ -539,7 +623,10 @@ Select only one answer.
 
 .Answer
 [example%collapsible]
-`Semantic segmentation` provides the ability to classify individual pixels in an image depending on the object that they represent. The other answer choices also process images, but their outcomes are different.
+`Semantic segmentation` provides the ability to classify individual pixels in an image depending on the object that they represent.
+The other answer choices also process images, but their outcomes are different.
+
+'''
 
 .*Which two artificial intelligence (AI) workload features are part of the Azure AI Vision service? Each correct answer presents a complete solution.* +
 Select all answers that apply.
@@ -555,6 +642,8 @@ Select all answers that apply.
 `OCR and Spatial Analysis` are part of the Azure AI Vision service. +
 Sentiment analysis, entity recognition, and key phrase extraction are not part of the computer vision service.
 
+'''
+
 .*Which natural language processing (NLP) workload is used to generate closed caption text for live presentations?* +
 Select only one answer.
 
@@ -565,9 +654,12 @@ Select only one answer.
 
 .Answer
 [example%collapsible]
-`Azure AI Speech` provides speech-to-text and text-to-speech capabilities through speech recognition and synthesis. You can use prebuilt and custom Speech service models for a variety of tasks, from transcribing audio to text with high accuracy, to identifying speakers in conversations, creating custom voices, and more.
+`Azure AI Speech` provides speech-to-text and text-to-speech capabilities through speech recognition and synthesis.
+You can use prebuilt and custom Speech service models for a variety of tasks, from transcribing audio to text with high accuracy, to identifying speakers in conversations, creating custom voices, and more.
 
-.Which principle of responsible artificial intelligence (AI) defines the framework of governance and organization principles that meet ethical and legal standards of AI solutions? +
+'''
+
+.*Which principle of responsible artificial intelligence (AI) defines the framework of governance and organization principles that meet ethical and legal standards of AI solutions?* +
 Select only one answer.
 
 .. accountability
@@ -580,7 +672,9 @@ Select only one answer.
 `Accountability` defines the framework of governance and organizational principles, which are meant to ensure that AI solutions meet ethical and legal standards that are clearly defined. +
 The other answer choices do not define the framework of governance and organization principles, but provide guidance regarding the ethical and legal aspects of the corresponding standards.
 
-.Which principle of responsible artificial intelligence (AI) plays the primary role when implementing an AI solution that meets qualifications for business loan approvals? +
+'''
+
+.*Which principle of responsible artificial intelligence (AI) plays the primary role when implementing an AI solution that meets qualifications for business loan approvals?* +
 Select only one answer.
 
 .. accountability
@@ -595,7 +689,9 @@ Transparency does not apply in this case since banks commonly use their propriet
 Inclusiveness is also out of scope since not everyone is qualified for a loan. +
 Safety is not a primary consideration since there is no direct threat to human life or health in this case.
 
-.Which two principles of responsible artificial intelligence (AI) are most important when designing an AI system to manage healthcare data? Each correct answer presents part of the solution. +
+'''
+
+.*Which two principles of responsible artificial intelligence (AI) are most important when designing an AI system to manage healthcare data? Each correct answer presents part of the solution.* +
 Select all answers that apply.
 
 .. accountability
@@ -605,9 +701,13 @@ Select all answers that apply.
 
 .Answer
 [example%collapsible]
-The accountability principle states that AI systems are designed to meet any ethical and legal standards that are applicable. The system must be designed to ensure that privacy of the healthcare data is of the highest importance, including anonymizing data where applicable. The fairness principle is applied to AI systems to ensure that users of the systems are treated fairly. The inclusiveness principle states that AI systems must empower people in a positive and engaging way.
+The accountability principle states that AI systems are designed to meet any ethical and legal standards that are applicable.
+The system must be designed to ensure that privacy of the healthcare data is of the highest importance, including anonymizing data where applicable.
+The fairness principle is applied to AI systems to ensure that users of the systems are treated fairly.
+The inclusiveness principle states that AI systems must empower people in a positive and engaging way.
 
-.You want to create a model to predict sales of ice cream based on historic data that includes daily ice cream sales totals and weather measurements. Which Azure service should you use?
+'''
+.*You want to create a model to predict sales of ice cream based on historic data that includes daily ice cream sales totals and weather measurements. Which Azure service should you use?*
 .. Azure Machine Learning
 .. Azure AI Bot Service
 .. Azure AI Language
@@ -616,7 +716,8 @@ The accountability principle states that AI systems are designed to meet any eth
 [example%collapsible]
 Azure Machine Learning
 
-.You work for a wildlife sanctuary and are considering using AI to identify bird species from images. Which AI service should you use to prototype your idea?
+'''
+.*You work for a wildlife sanctuary and are considering using AI to identify bird species from images. Which AI service should you use to prototype your idea?*
 .. Azure AI Vision
 .. Azure AI Search
 .. Azure OpenAI
@@ -625,7 +726,8 @@ Azure Machine Learning
 [example%collapsible]
 Azure AI Vision
 
-.A predictive app provides audio output for visually impaired users. Which principle of Responsible AI is reflected here?
+'''
+.*A predictive app provides audio output for visually impaired users. Which principle of Responsible AI is reflected here?*
 .. Transparency
 .. Inclusiveness
 .. Fairness
@@ -634,7 +736,8 @@ Azure AI Vision
 [example%collapsible]
 Inclusiveness
 
-.You want to create a model to predict the cost of heating an office building based on its size in square feet and the number of employees working there. What kind of machine learning problem is this?
+'''
+.*You want to create a model to predict the cost of heating an office building based on its size in square feet and the number of employees working there. What kind of machine learning problem is this?*
 .. Regression
 .. Classification
 .. Clustering
@@ -643,7 +746,8 @@ Inclusiveness
 [example%collapsible]
 Regression
 
-.You need to evaluate a classification model. Which metric can you use?
+'''
+.*You need to evaluate a classification model. Which metric can you use?*
 .. Mean squared error (MSE)
 .. Precision
 .. Silhouette
@@ -652,7 +756,8 @@ Regression
 [example%collapsible]
 Precision
 
-.In deep learning, what is the purpose of a loss function?
+'''
+.*In deep learning, what is the purpose of a loss function?*
 .. To remove data for which no known label values are provided
 .. To evaluate the aggregate difference between predicted and actual label values
 .. To calculate the cost of training a neural network rather than a statistical model.
@@ -661,7 +766,8 @@ Precision
 [example%collapsible]
 To evaluate the aggregate difference between predicted and actual label values
 
-.What does automated machine learning in Azure Machine Learning enable you to do?
+'''
+.*What does automated machine learning in Azure Machine Learning enable you to do?*
 .. Automatically deploy new versions of a model as they're trained
 .. Automatically provision Azure Machine Learning workspaces for new data scientists in an organisation
 .. Automatically run multiple training jobs using different algorithms and parameters to find the best model
@@ -670,7 +776,8 @@ To evaluate the aggregate difference between predicted and actual label values
 [example%collapsible]
 Automatically run multiple training jobs using different algorithms and parameters to find the best model
 
-.What is an Azure AI services resource?
+'''
+.*What is an Azure AI services resource?*
 .. A bundle of several AI services in one resource
 .. An AI service to recognize faces
 .. A single-service resource for Azure AI Search
@@ -679,6 +786,7 @@ Automatically run multiple training jobs using different algorithms and paramete
 [example%collapsible]
 A bundle of several AI services in one resource
 
+'''
 .Computer vision is based on the manipulation and analysis of what kinds of values in an image?
 .. Timestamps in photograph metadata
 .. Pixels
@@ -688,16 +796,16 @@ A bundle of several AI services in one resource
 [example%collapsible]
 Pixels
 
-.You want to use the Azure AI Vision service to identify the location of individual items in an image. Which of the following features should you retrieve?
+'''
+.*You want to use the Azure AI Vision service to identify the location of individual items in an image. Which of the following features should you retrieve?*
 .. Objects
 .. Visual Tags
-.. Dense Captions
-
-.Answer
+.. Dense Captions .Answer
 [example%collapsible]
 Objects
 
-.How does the Face service indicate the location of faces in images?
+'''
+.*How does the Face service indicate the location of faces in images?*
 .. A pair of coordinates for each face, indicating the center of the face
 .. Two pairs of coordinates for each face, indicating the location of the eyes
 .. A set of coordinates for each face, defining a rectangular bounding box around the face
@@ -706,7 +814,8 @@ Objects
 [example%collapsible]
 A set of coordinates for each face, defining a rectangular bounding box around the face
 
-.What is one aspect that might impair facial detection?
+'''
+.*What is one aspect that might impair facial detection?*
 .. Glasses
 .. Extreme angles
 .. Fast shutter speed
@@ -715,6 +824,7 @@ A set of coordinates for each face, defining a rectangular bounding box around t
 [example%collapsible]
 Extreme angles
 
+'''
 .What two actions are required to try out the capabilities of the Face service?
 .. Create an Azure Cognitive Search resource, and open Vision Studio
 .. Create a Face resource, and open Vision Studio
@@ -724,6 +834,7 @@ Extreme angles
 [example%collapsible]
 Create a Face resource, and open Vision Studio
 
+'''
 .You plan to use Azure AI Vision's Read API. What results can the Read API provide?
 .. Results arranged in pages, lines, and words
 .. Only the bounding box coordinates
@@ -742,7 +853,8 @@ Results arranged in pages, lines, and words
 [example%collapsible]
 Key phrase extraction
 
-.You use Azure AI Language to perform sentiment analysis on a sentence. The confidence scores .04 positive, .36 neutral, and .60 negative are returned. What do these confidence scores indicate about the sentence sentiment?
+'''
+.*You use Azure AI Language to perform sentiment analysis on a sentence. The confidence scores .04 positive, .36 neutral, and .60 negative are returned. What do these confidence scores indicate about the sentence sentiment?*
 .. The document is positive.
 .. The document is neutral.
 .. The document is negative.
@@ -751,7 +863,8 @@ Key phrase extraction
 [example%collapsible]
 The document is negative.
 
-.When might you see NaN returned for a score in language detection?
+'''
+.*When might you see NaN returned for a score in language detection?*
 .. When the score calculated by the service is outside the range of 0 to 1
 .. When the predominant language in the text is mixed with other languages
 .. When the language is ambiguous
@@ -760,7 +873,8 @@ The document is negative.
 [example%collapsible]
 When the language is ambiguous
 
-.Your organization has an existing frequently asked questions (FAQ) document. You need to create a knowledge base that includes the questions and answers from the FAQ with the least possible effort. What should you do?
+'''
+.*Your organization has an existing frequently asked questions (FAQ) document. You need to create a knowledge base that includes the questions and answers from the FAQ with the least possible effort. What should you do?*
 .. Create an empty knowledge base, and then manually copy and paste the FAQ entries into it.
 .. Import the existing FAQ document into a new knowledge base.
 .. Import a pre-defined chit-chat data source.
@@ -769,7 +883,8 @@ When the language is ambiguous
 [example%collapsible]
 Import the existing FAQ document into a new knowledge base.
 
-.You want to create a knowledge base for your organization’s bot service. Which Azure AI service is best suited to creating a knowledge base?
+'''
+.*You want to create a knowledge base for your organization’s bot service. Which Azure AI service is best suited to creating a knowledge base?*
 .. Conversational Language Understanding
 .. Question Answering
 .. Optical Character Recognition
@@ -778,7 +893,8 @@ Import the existing FAQ document into a new knowledge base.
 [example%collapsible]
 Question Answering
 
-.ou need to provision an Azure resource that will be used to author a new conversational language understanding application. What kind of resource should you create?
+'''
+.*You need to provision an Azure resource that will be used to author a new conversational language understanding application. What kind of resource should you create?*
 .. Azure AI Speech
 .. Azure AI Language
 .. Azure AI services
@@ -787,7 +903,8 @@ Question Answering
 [example%collapsible]
 Azure AI Language
 
-.You are authoring a conversational language understanding application to support an international clock. You want users to be able to ask for the current time in a specified city, for example "What is the time in London?". What should you do?
+'''
+.*You are authoring a conversational language understanding application to support an international clock. You want users to be able to ask for the current time in a specified city, for example "What is the time in London?". What should you do?*
 .. Define a "city" entity and a "GetTime" intent with utterances that indicate the city entity.
 .. Create an intent for each city, each with an utterance that asks for the time in that city.
 .. Add the utterance "What time is it in city" to the "None" intent.
@@ -796,7 +913,8 @@ Azure AI Language
 [example%collapsible]
 Define a "city" entity and a "GetTime" intent with utterances that indicate the city entity.
 
-.You have published your conversational language understanding application. What information does a client application developer need to get predictions from it?
+'''
+.*You have published your conversational language understanding application. What information does a client application developer need to get predictions from it?*
 .. The endpoint and key for the application's prediction resource
 .. The endpoint and key for the application's authoring resource
 .. The Azure credentials of the user who published the language understanding application
@@ -805,7 +923,8 @@ Define a "city" entity and a "GetTime" intent with utterances that indicate the 
 [example%collapsible]
 The endpoint and key for the application's prediction resource
 
-.You want to use Azure AI Speech service to build an application that reads incoming email message subjects aloud. Which API should you use?
+'''
+.*You want to use Azure AI Speech service to build an application that reads incoming email message subjects aloud. Which API should you use?*
 .. Speech to text
 .. Text to speech
 .. Translator
@@ -814,7 +933,8 @@ The endpoint and key for the application's prediction resource
 [example%collapsible]
 Text to speech
 
-.You plan to use Azure AI Document Intelligence's prebuilt receipt model. Which kind of Azure resource should you create?
+'''
+.*You plan to use Azure AI Document Intelligence's prebuilt receipt model. Which kind of Azure resource should you create?*
 .. Azure AI Vision resource
 .. Azure AI Document Intelligence or Azure AI services resource.
 .. Azure AI Language resource.
@@ -823,7 +943,8 @@ Text to speech
 [example%collapsible]
 Azure AI Document Intelligence or Azure AI services resource.
 
-.You are using the Azure AI Document Intelligence service to analyze receipts. Which field types does the service recognise?
+'''
+.*You are using the Azure AI Document Intelligence service to analyze receipts. Which field types does the service recognize?*
 .. Merchant retail type.
 .. Merchant name and address.
 .. Merchant name and date of incorporation.
@@ -832,7 +953,7 @@ Azure AI Document Intelligence or Azure AI services resource.
 [example%collapsible]
 Merchant name and address
 
-.What is required to use the receipt analyzer service in Azure AI Document Intelligence?
+.*What is required to use the receipt analyzer service in Azure AI Document Intelligence?*
 .. Train the model on sample receipts from your organisation.
 .. Create an Azure AI Document Intelligence resource.
 .. Nothing - receipt analyzer is available once you create an Azure subscription.
@@ -841,7 +962,8 @@ Merchant name and address
 [example%collapsible]
 Create an Azure AI Document Intelligence resource.
 
-.Which data format is accepted by Azure AI Search when you're pushing data to the index?
+'''
+.*Which data format is accepted by Azure AI Search when you're pushing data to the index?*
 .. CSV
 .. SQL
 .. JSON
@@ -850,7 +972,8 @@ Create an Azure AI Document Intelligence resource.
 [example%collapsible]
 JSON
 
-.Which explanation best describes an indexer and an index?
+'''
+.*Which explanation best describes an indexer and an index?*
 .. An indexer converts documents into JSON and forwards them to a search engine for indexing.
 .. An indexer can be used instead of an index if the files are already in the proper format.
 .. An indexer is only used for AI enrichment and skillset execution.
@@ -859,7 +982,8 @@ JSON
 [example%collapsible]
 An indexer converts documents into JSON and forwards them to a search engine for indexing.
 
-.If you set up a search index without including a skillset, which would you still be able to query?
+'''
+.*If you set up a search index without including a skillset, which would you still be able to query?*
 .. Sentiment
 .. Text content
 .. Image captions
@@ -868,7 +992,8 @@ An indexer converts documents into JSON and forwards them to a search engine for
 [example%collapsible]
 Text content
 
-.What is an example of a potential task a generative AI application can help solve?
+'''
+.*What is an example of a potential task a generative AI application can help solve?*
 .. Monitoring the temperature in a manufacturing facility.
 .. Creating a draft for an email.
 .. Collecting real time data and storing it in a database.
@@ -877,7 +1002,8 @@ Text content
 [example%collapsible]
 Creating a draft for an email.
 
-.What is the purpose of vector-based embeddings?
+'''
+.*What is the purpose of vector-based embeddings?*
 .. To represent semantic meaning of text tokens.
 .. To create tokens that include multiple representations of a word in different languages.
 .. To correct misspellings in the training data.
@@ -886,7 +1012,8 @@ Creating a draft for an email.
 [example%collapsible]
 To represent semantic meaning of text tokens.
 
-.What is the potential impact of copilots?
+'''
+.*What is the potential impact of copilots?*
 .. Copilots only impact applications used in professional settings.
 .. Copilots can help with first drafts, information synthesis, strategic planning, and much more.
 .. Copilots can only be used for certain natural language tasks like summarizing text.
@@ -895,6 +1022,7 @@ To represent semantic meaning of text tokens.
 [example%collapsible]
 Copilots can help with first drafts, information synthesis, strategic planning, and much more.
 
+'''
 .Which assumption of the multiple linear regression model should be satisfied to avoid misleading predictions?
 .. Features are dependent on each other.
 .. Features are independent of each other.
@@ -905,15 +1033,20 @@ Copilots can help with first drafts, information synthesis, strategic planning, 
 [example%collapsible]
 Features are independent of each other.
 
-.How are ChatGPT, OpenAI, and Azure OpenAI related?
+'''
+.*How are ChatGPT, OpenAI, and Azure OpenAI related?*
 .. Azure OpenAI is Microsoft's version of ChatGPT, a chatbot that uses generative AI models.
-.. ChatGPT and OpenAI are chatbots that generate natural language, code, and images. Azure OpenAI provides access to these two chatbots.
-.. OpenAI is a research company that developed ChatGPT, a chatbot that uses generative AI models. Azure OpenAI provides access to many of OpenAI's AI models
+.. ChatGPT and OpenAI are chatbots that generate natural language, code, and images.
+Azure OpenAI provides access to these two chatbots.
+.. OpenAI is a research company that developed ChatGPT, a chatbot that uses generative AI models.
+Azure OpenAI provides access to many of OpenAI's AI models
 
 .Answer
 [example%collapsible]
-OpenAI is a research company that developed ChatGPT, a chatbot that uses generative AI models. Azure OpenAI provides access to many of OpenAI's AI models
+OpenAI is a research company that developed ChatGPT, a chatbot that uses generative AI models.
+Azure OpenAI provides access to many of OpenAI's AI models
 
+'''
 .What is one action Microsoft takes to support ethical AI practices in Azure OpenAI?
 .. Provides Transparency Notes that share how technology is built and asks users to consider its implications.
 .. Logs users out of Azure OpenAI Studio after a period of inactivity to ensure it's only used by one user.
@@ -923,6 +1056,7 @@ OpenAI is a research company that developed ChatGPT, a chatbot that uses generat
 [example%collapsible]
 Provides Transparency Notes that share how technology is built and asks users to consider its implications.
 
+'''
 .Why should you consider creating an AI Impact Assessment when designing a generative AI solution?
 .. To make a legal case that indemnifies you from responsibility for harms caused by the solution
 .. To document the purpose, expected use, and potential harms for the solution
@@ -932,6 +1066,7 @@ Provides Transparency Notes that share how technology is built and asks users to
 [example%collapsible]
 To document the purpose, expected use, and potential harms for the solution
 
+'''
 .What capability of Azure OpenAI Service helps mitigate harmful content generation at the Safety System level?
 .. DALL-E model support
 .. Fine-tuning
@@ -941,6 +1076,7 @@ To document the purpose, expected use, and potential harms for the solution
 [example%collapsible]
 Content filters
 
+'''
 .Why should you consider a phased delivery plan for your generative AI solution?
 .. To enable you to gather feedback and identify issues before releasing the solution more broadly
 .. To eliminate the need to identify, measure, and mitigate potential harms
@@ -949,6 +1085,8 @@ Content filters
 .Answer
 [example%collapsible]
 To enable you to gather feedback and identify issues before releasing the solution more broadly
+
+'''
 
 .*You have a set of images. Each image shows one type of bone fracture. What allows you to identify bone fractures in different X-ray images?* +
 Select only one answer.
@@ -960,10 +1098,14 @@ Select only one answer.
 
 .Answer
 [example%collapsible]
-`Image classification` is part of computer vision and can be used to evaluate images from an X-ray machine to quickly classify specific bone fracture types. This helps improve diagnosis and treatment plans. An image classification model is trained to facilitate the categorizing of the bone fractures. +
+`Image classification` is part of computer vision and can be used to evaluate images from an X-ray machine to quickly classify specific bone fracture types.
+This helps improve diagnosis and treatment plans.
+An image classification model is trained to facilitate the categorizing of the bone fractures. +
 Object detection is used to return identified objects in an image, such as a cat, person, or chair. +
 Conversational AI is used to create intelligent bots that can interact with people by using natural language. +
 Facial detection is used to detect the location of human faces in an image.
+
+'''
 
 .You have a set of images. Each image shows multiple vehicles. What allows you to identity different vehicle types in the same traffic monitoring image? +
 Select only one answer.
@@ -980,6 +1122,8 @@ Linear regression is a machine learning training algorithm for training regressi
 Image classification is part of computer vision that is concerned with the primary contents of an image. +
 OCR is used to extract text and handwriting from images.
 
+'''
+
 .Which feature of the Azure AI Speech service can identify distinct user voices? +
 Select only one answer.
 
@@ -995,8 +1139,8 @@ Azure AI Speech synthesis is concerned with vocalizing data, usually by converti
 Azure AI Speech translation is concerned with multilanguage translation of speech. +
 Language identification is used to identify languages spoken in audio when compared against a list of supported languages.
 
+'''
 .*Which Azure resource provides language and vision services from a single endpoint?*
-
 .. Azure AI Language
 .. Azure AI Vision
 .. Azure AI Services
@@ -1005,8 +1149,8 @@ Language identification is used to identify languages spoken in audio when compa
 [example%collapsible]
 `Azure AI Services` provides multiple services from a single endpoint.
 
+'''
 .*How should you provide access to resources for developers who will work on multiple AI projects?*
-
 .. Create resource connections in an Azure AI Foundry hub.
 .. Create resource connections in each Azure AI Foundry project.
 .. Assign each developer direct access to all of the resources.
@@ -1016,8 +1160,8 @@ Language identification is used to identify languages spoken in audio when compa
 **Create resource connections in an Azure AI Foundry hub**. +
 Creating resource connections in a hub means they can be used from all projects created in that hub.
 
+'''
 .*Which SDK enables you to connect to shared resources in a hub?*
-
 .. Azure AI Services SDK
 .. Semantic Kernel SDK
 .. Azure AI Foundry SDK
@@ -1025,6 +1169,8 @@ Creating resource connections in a hub means they can be used from all projects 
 .Answer
 [example%collapsible]
 `The Azure AI Foundry` SDK provides the AI Projects client library, which you can use to access connections in a project or hub.
+
+'''
 
 .*Which three values are returned by the language detection feature of the Azure AI Language service in Azure?* +
 Select all answers that apply.
@@ -1042,6 +1188,8 @@ and Score` are three values returned by the Language service of natural language
 Bounding box coordinates are returned by the Azure AI Vision services in Azure. +
 Wikipedia URL is one of the potential values returned by entity linking of entity recognition.
 
+'''
+
 .*For which two scenarios is the Universal Language Model used by the speech-to-text API optimized? Each correct answer presents a complete solution.* +
 Select all answers that apply.
 
@@ -1055,6 +1203,8 @@ Select all answers that apply.
 [example%collapsible]
 The Universal Language Model used by the speech-to-text API is optimized for **conversational and dictation** scenarios.
 The acoustic, language, and pronunciation scenarios require developing your own model.
+
+'''
 
 .Which additional piece of information is included with each phrase returned by an image description task of the Azure AI Vision? +
 Select only one answer.
@@ -1070,6 +1220,8 @@ Each phrase returned by an image description task of the Azure AI Vision include
 An endpoint and a key must be provided to access the Azure AI Vision service. +
 Bounding box coordinates are returned by services such as object detection, but not image description.
 
+'''
+
 .*Which two artificial intelligence (AI) workload scenarios are examples of natural language processing (NLP)? Each correct answer presents a complete solution.* +
 Select all answers that apply.
 
@@ -1081,11 +1233,13 @@ Select all answers that apply.
 
 .Answer
 [example%collapsible]
-`Translating text between different languages from product reviews` is an NLP workload that uses the Azure AI Translator service and is part of Azure AI Services. It can provide text translation of supported languages in real time. +
-`Performing sentiment analysis on social media data` is an NLP that uses the sentiment analysis feature of the Azure AI Service for Language. It can provide sentiment labels, such as negative, neutral, and positive for text-based sentences and documents.
+`Translating text between different languages from product reviews` is an NLP workload that uses the Azure AI Translator service and is part of Azure AI Services.
+It can provide text translation of supported languages in real time. +
+`Performing sentiment analysis on social media data` is an NLP that uses the sentiment analysis feature of the Azure AI Service for Language.
+It can provide sentiment labels, such as negative, neutral, and positive for text-based sentences and documents.
 
+'''
 .*Which type of machine learning algorithm assigns items to a set of predefined categories?* +
-
 .. classification
 .. clustering
 .. regression
