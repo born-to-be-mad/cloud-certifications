@@ -52,6 +52,19 @@ Reference: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai
 
 * https://learn.microsoft.com/en-us/training/modules/ai-agent-fundamentals/[Fundamentals of AI agents on Azure]
 
+== Glossary
+Azure OpenAI:: A service that provides access to OpenAI generative AI models including the GPT family of large and small language models and DALL-E image-generation models within a scalable and securable cloud service on Azure.
+Azure AI Vision:: A service that provides a set of models and APIs that can be used to implement common computer vision functionality in an application.
+Azure AI Speech:: A service that provides APIs that you can use to implement text to speech and speech to text transformation, as well as specialized speech-based capabilities like speaker recognition and translation.
+Azure AI Language:: A service that provides models and APIs that you can use to analyze natural language text and perform tasks such as entity extraction, sentiment analysis, and summarization.
+Azure AI Content Safety:: Provides developers with access to advanced algorithms for processing images and text and flagging content that is potentially offensive, risky, or otherwise undesirable.
+Azure AI Translator:: A service that uses state-of-the-art language models to translate text between a large number of languages.
+Azure AI Face:: A specialist computer vision implementation that can detect, analyze, and recognize human faces.
+Azure AI Custom Vision:: A service that enables you to train and use custom computer vision models for image classification and object detection.
+Azure AI Document Intelligence:: A service that allows to use pre-built or custom models to extract fields from complex documents such as invoices, receipts, and forms.
+Azure AI Content Understanding:: A service that provides multi-modal content analysis capabilities that enable you to build models to extract data from forms and documents, images, videos, and audio streams
+Azure AI Search:: A service that uses a pipeline of AI skills based on other Azure AI Services and custom code to extract information from content and create a searchable index.
+Azure AI Hub:: A top-level container for managing shared resources, data, connections and security configuration for AI application development.
 
 == Practical questions
 
@@ -409,9 +422,7 @@ Select only one answer.
 [example%collapsible]
 `Azure AI Custom Vision` is an image recognition service that allows you to build and deploy your own image models. The Azure AI vision service, Azure AI Face service, and Azure AI Language service do not provide the capability to train your own image model.
 
-.Select the answer that correctly completes the sentence.
-
-[Answer choice] can return responses, such as natural language, images, or code, based on natural language input. +
+.Select the answer that correctly completes the sentence. [Answer choice] can return responses, such as natural language, images, or code, based on natural language input. +
 Select only one answer.
 
 .. Computer vision
@@ -424,9 +435,7 @@ Select only one answer.
 [example%collapsible]
 `Generative AI models` offer the capability of generating images based on a prompt by using DALL-E models, such as generating images from natural language. The other AI capabilities are used in different contexts to achieve other goals.
 
-.Select the answer that correctly completes the sentence.
-
-[Answer choice] can used to identify constraints and styles for the responses of a generative AI model. +
+.Select the answer that correctly completes the sentence. [Answer choice] can used to identify constraints and styles for the responses of a generative AI model. +
 Select only one answer.
 
 .. Data grounding
@@ -940,3 +949,34 @@ Select only one answer.
 Azure AI Speech synthesis is concerned with vocalizing data, usually by converting text to speech. +
 Azure AI Speech translation is concerned with multilanguage translation of speech. +
 Language identification is used to identify languages spoken in audio when compared against a list of supported languages.
+
+.*Which Azure resource provides language and vision services from a single endpoint?*
+
+.. Azure AI Language
+.. Azure AI Vision
+.. Azure AI Services
++
+.Answer
+[example%collapsible]
+`Azure AI Services` provides multiple services from a single endpoint.
+
+.*How should you provide access to resources for developers who will work on multiple AI projects?*
+
+.. Create resource connections in an Azure AI Foundry hub.
+.. Create resource connections in each Azure AI Foundry project.
+.. Assign each developer direct access to all of the resources.
++
+.Answer
+[example%collapsible]
+**Create resource connections in an Azure AI Foundry hub**. +
+Creating resource connections in a hub means they can be used from all projects created in that hub.
+
+.*Which SDK enables you to connect to shared resources in a hub?*
+
+.. Azure AI Services SDK
+.. Semantic Kernel SDK
+.. Azure AI Foundry SDK
++
+.Answer
+[example%collapsible]
+`The Azure AI Foundry` SDK provides the AI Projects client library, which you can use to access connections in a project or hub.
