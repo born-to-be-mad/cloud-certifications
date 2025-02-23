@@ -79,6 +79,7 @@ Classification:: A form of supervised learning where the label represents a cate
 Multiclass classification:: A form of supervised learning where the label represents a categorization.
 Clustering:: An unsupervised machine learning type that analyzes unlabeled data to find similarities present in the data.
 Silhouette:: A metric that can be used to evaluate the quality of clusters.
+OCR:: Optical Character recognition
 
 == Practical questions
 
@@ -116,7 +117,6 @@ Select only one answer.
 `Supervised` learning is a category of learning algorithms that includes regression and classification, but not clustering.
 
 '''
-
 .*A retailer wants to group together online shoppers that have similar attributes to enable its marketing team to create targeted marketing campaigns for new product launches.* +
 Which type of machine learning is this?
 Select only one answer.
@@ -313,16 +313,15 @@ Select only one answer.
 .. key phrase extraction
 .. tokenization
 .. transcribing
-+
+
 .Answer
 [example%collapsible]
 `Tokenization` is part of speech synthesis that involves breaking text into individual words such that each word can be assigned phonetic sounds. +
-Transcribing is part of speech recognition, which involves converting speech into a text representation. +
-Key phrase extraction is part of language processing, not speech synthesis. +
-Lemmatization, also known as stemming, is part of language processing, not speech synthesis.
+`Transcribing` is part of speech recognition, which involves converting speech into a text representation. +
+`Key phrase extraction` is part of language processing, not speech synthesis. +
+`Lemmatization`, also known as `stemming`, is part of language processing, not speech synthesis.
 
 '''
-
 .*Which natural language processing (NLP) technique normalizes words before counting them?* +
 Select only one answer.
 
@@ -330,16 +329,28 @@ Select only one answer.
 .. N-grams
 .. stemming
 .. vectorization
-+
+
 .Answer
 [example%collapsible]
 `Stemming` normalizes words before counting them. +
-Frequency analysis counts how often a word appears in a text. +
-N-grams extend frequency analysis to include multi-term phrases. +
-Vectorization captures semantic relationships between words by assigning them to locations in n-dimensional space.
+`Frequency analysis` counts how often a word appears in a text. +
+`N-grams` extend frequency analysis to include multi-term phrases. +
+`Vectorization` captures semantic relationships between words by assigning them to locations in n-dimensional space.
 
 '''
+.*Which natural language processing (NLP) workload is used to generate closed caption text for live presentations?* +
+Select only one answer.
 
+.. Azure AI Speech
+.. conversational language understanding (CLU)
+.. question answering models
+.. text analysis
+
+.Answer
+[example%collapsible]
+`Azure AI Speech` provides speech-to-text and text-to-speech capabilities through speech recognition and synthesis. You can use prebuilt and custom Speech service models for a variety of tasks, from transcribing audio to text with high accuracy, to identifying speakers in conversations, creating custom voices, and more.
+
+'''
 .*Which Azure AI Service for Language feature can be used to analyze online user reviews to identify whether users view a product positively or negatively?* +
 Select only one answer.
 
@@ -355,7 +366,6 @@ This makes it suitable for understanding user sentiment for product reviews. +
 The named entity recognition, key phrase extraction, and language detection features cannot perform sentiment analysis for product reviews.
 
 '''
-
 .*Which Azure AI Service for Language feature allows you to analyze written articles to extract information and concepts, such as people and locations, for classification purposes?* +
 Select only one answer.
 
@@ -646,7 +656,6 @@ Select only one answer.
 The other answer choices also process images, but their outcomes are different.
 
 '''
-
 .*Which two artificial intelligence (AI) workload features are part of the Azure AI Vision service? Each correct answer presents a complete solution.* +
 Select all answers that apply.
 
@@ -1106,7 +1115,6 @@ Content filters
 To enable you to gather feedback and identify issues before releasing the solution more broadly
 
 '''
-
 .*You have a set of images. Each image shows one type of bone fracture. What allows you to identify bone fractures in different X-ray images?* +
 Select only one answer.
 
@@ -1125,8 +1133,7 @@ Conversational AI is used to create intelligent bots that can interact with peop
 Facial detection is used to detect the location of human faces in an image.
 
 '''
-
-.You have a set of images. Each image shows multiple vehicles. What allows you to identity different vehicle types in the same traffic monitoring image? +
+.*You have a set of images. Each image shows multiple vehicles. What allows you to identity different vehicle types in the same traffic monitoring image?* +
 Select only one answer.
 
 .. image classification
@@ -1142,7 +1149,6 @@ Image classification is part of computer vision that is concerned with the prima
 OCR is used to extract text and handwriting from images.
 
 '''
-
 .Which feature of the Azure AI Speech service can identify distinct user voices? +
 Select only one answer.
 
@@ -1202,8 +1208,7 @@ Select all answers that apply.
 
 .Answer
 [example%collapsible]
-`Language Name, ISO 6391 Code,
-and Score` are three values returned by the Language service of natural language processing (NLP) in Azure. +
+`Language Name, ISO 6391 Code,and Score` are three values returned by the Language service of natural language processing (NLP) in Azure. +
 Bounding box coordinates are returned by the Azure AI Vision services in Azure. +
 Wikipedia URL is one of the potential values returned by entity linking of entity recognition.
 
@@ -1270,3 +1275,97 @@ It can provide sentiment labels, such as negative, neutral, and positive for tex
 Regression algorithms are used to predict numeric values. +
 Clustering algorithms group data points that have similar characteristics. +
 Unsupervised learning is a category of learning algorithms that includes clustering, but not regression or classification.
+
+'''
+.*Which feature of computer vision involves associating an image with metadata that summarizes the attributes of the image?*
+Select only one answer.
+
+.. categorizing
+.. content organization
+.. detecting image types
+.. tagging
+
+.Answer
+[example%collapsible]
+`Tagging` involves associating an image with metadata that summarizes the attributes of the image. +
+Detecting image types involves identifying clip art images or line drawings. +
+Content organization involves identifying people or objects in photos and organizing them based on the identification. +
+Categorizing involves associating the contents of an image with a limited set of categories.
+
+'''
+.*What is the first step in the statistical analysis of terms in a text in the context of natural language processing (NLP)?* +
+Select only one answer.
+
+.. creating a vectorized model
+.. counting the occurrences of each word
+.. encoding words as numeric features
+.. removing stop words
+
+.Answer
+[example%collapsible]
+`Removing stop words` is the first step in the statistical analysis of terms used in a text in the context of NLP. +
+`Counting the occurrences of each word` takes place after stop words are removed. +
+`Creating a vectorized model` is not part of statistical analysis. It is used to capture the sematic relationship between words. +
+`Encoding words as numeric features` is not part of statistical analysis. It is frequently used in sentiment analysis.
+
+'''
+.*Which three features are elements of the Azure AI Speech service? Each correct answer presents a complete solution.* +
+Select all answers that apply.
+
+.. document translation
+.. language identification
+.. speaker recognition
+.. text translation
+.. voice assistants
+.Answer
+[example%collapsible]
+`Language identification`, `speaker recognition`, and `voice assistants` are all elements of the Azure AI Speech service. +
+`Text translation` and `document translation` are part of the Translator service.
+
+'''
+.*A company deploys an online marketing campaign to social media platforms for a new product launch. The company wants to use machine learning to measure the sentiment of users on the Twitter platform who made posts in response to the campaign. Which type of machine learning is this?* +
+Select only one answer.
+
+.. classification
+.. clustering
+.. data transformation
+.. regression
+
+.Answer
+[example%collapsible]
+`Classification` is used to predict categories of data. It can predict which category or class an item of data belongs to. In this example, sentiment analysis can be carried out on the Twitter posts with a numeric value applied to the posts to identify and classify positive or negative sentiment. +
+`Clustering` is a machine learning type that analyzes unlabeled data to find similarities in the data. +
+`Regression` is a machine learning scenario that is used to predict numeric values. +
+Data transformation is not a machine learning type.
+
+'''
+.*A healthcare organization has a dataset consisting of bone fracture scans that are categorized by using predefined fracture types. The organization wants to use machine learning to detect the different types of bone fractures for new scans before the scans are sent to a medical practitioner. Which type of machine learning is this?* +
+Select only one answer.
+
+.. classification
+.. clustering
+.. featurization
+.. regression
+
+.Answer
+[example%collapsible]
+`Classification` is used to predict categories of data. It can predict which category or class an item of data belongs to. In this example, a machine learning model trained by using classification with labeled data can be used to determine the type of bone fracture in a new scan that is not labeled already. +
+Featurization is not a machine learning type.+
+Regression is used to predict numeric values. Clustering analyzes unlabeled data to find similarities in the data.
+
+'''
+.*Which machine learning algorithm module in the Azure Machine Learning designer is used to train a model?* +
+Select only one answer.
+
+-- Clean Missing Data
+-- Evaluate Model
+-- Linear Regression
+-- Select Columns in Dataset
+
+.Answer
+[example%collapsible]
+`Linear regression` is a machine learning algorithm module used for training regression models. +
+`The Clean Missing Data` module is part of preparing the data and data transformation process. +
+`Select Columns in Dataset` is a data transformation component
+that is used to choose a subset of columns of interest from a dataset. +
+`Evaluate model` is a component used to measure the accuracy of trained models.
