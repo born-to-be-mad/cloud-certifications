@@ -54,6 +54,8 @@ Reference: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai
 
 == Glossary
 
+=== Azure Services
+
 Azure OpenAI:: A service that provides access to OpenAI generative AI models including the GPT family of large and small language models and DALL-E image-generation models within a scalable and securable cloud service on Azure.
 Azure AI Vision:: A service that provides a set of models and APIs that can be used to implement common computer vision functionality in an application.
 Azure AI Speech:: A service that provides APIs that you can use to implement text to speech and speech to text transformation, as well as specialized speech-based capabilities like speaker recognition and translation.
@@ -65,9 +67,18 @@ Azure AI Custom Vision:: A service that enables you to train and use custom comp
 Azure AI Document Intelligence:: A service that allows to use pre-built or custom models to extract fields from complex documents such as invoices, receipts, and forms.
 Azure AI Content Understanding:: A service that provides multi-modal content analysis capabilities that enable you to build models to extract data from forms and documents, images, videos, and audio streams
 Azure AI Search:: A service that uses a pipeline of AI skills based on other Azure AI Services and custom code to extract information from content and create a searchable index.
-Azure AI Hub:: A top-level container for managing shared resources, data, connections and security configuration for AI application development.
 Azure AI Agent Service:: A managed service in Azure that is designed to provide a framework for creating, managing, and using AI agents within Azure AI Foundry.
 AI agents:: Smart software services that combine generative AI models with contextual data and the ability to automate tasks based on user input and environmental factors that they perceive.
+
+=== Definitions
+
+MAE:: Mean Absolute Error — a metric commonly used to evaluate a regression model
+F1-score:: An evaluation metric is commonly used for evaluating a binary classification model
+AI Hub:: A top-level container for managing shared resources, data, connections and security configuration for AI application development.
+Classification:: A form of supervised learning where the label represents a categorization.
+Multiclass classification:: A form of supervised learning where the label represents a categorization.
+Clustering:: An unsupervised machine learning type that analyzes unlabeled data to find similarities present in the data.
+Silhouette:: A metric that can be used to evaluate the quality of clusters.
 
 == Practical questions
 
@@ -99,7 +110,10 @@ Select only one answer.
 .Answer
 [example%collapsible]
 **clustering** +
-`Clustering` algorithms group data points that have similar characteristics. `Regression` algorithms are used to predict numeric values. `Classification` algorithms are used to predict a predefined category to which an input value belongs. `Supervised` learning is a category of learning algorithms that includes regression and classification, but not clustering.
+`Clustering` algorithms group data points that have similar characteristics. +
+`Regression` algorithms are used to predict numeric values. +
+`Classification` algorithms are used to predict a predefined category to which an input value belongs. +
+`Supervised` learning is a category of learning algorithms that includes regression and classification, but not clustering.
 
 '''
 
